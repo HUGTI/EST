@@ -1,0 +1,159 @@
+Microsoft Windows [version 10.0.22000.1574]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\Admin>cd nod-pro
+
+C:\Users\Admin\nod-pro>node server.js
+[HPM] Proxy created: /  -> https://planbetbj.com
+🌐 HTTP redirect server running on http://localhost:3000 (redirects to HTTPS)
+🔒 HTTPS Proxy server running on https://localhost:3443
+🎯 Proxying to: https://planbetbj.com
+📋 Critical endpoints:
+  - /download-missing - Download missing critical resources
+  - /clear-cache - Clear the local cache
+  - /proxy-resource - Proxy any external resource
+🚀 Starting critical resources download on startup...
+🚀 Starting critical resources download...
+✅ Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/common.manifest.6fc7d90bc807.json
+✅ Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/desktop.manifest.65c4b08b0376.json
+✅ Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/background.fbddba313eee.skel
+✅ Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/thimbles.09788070dbcf.skel
+✅ Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/background%401x.a165bd1d7c97.png
+✅ Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/thimbles%401x.997e4c4e44c3.atlas
+✅ Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/popup.d7ca3cb5013a.skel
+✅ Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/mobile.scene.c5a1ea6c9350.json
+📥 Downloading: https://gamscdn.com/web-v3/static/main.df7825131207.js
+Download attempt 1 for: https://gamscdn.com/web-v3/static/main.df7825131207.js
+Download attempt 1 failed, retrying... HTTP 404 for https://gamscdn.com/web-v3/static/main.df7825131207.js
+Download attempt 2 for: https://gamscdn.com/web-v3/static/main.df7825131207.js
+❌ Error downloading https://gamscdn.com/web-v3/static/main.df7825131207.js: HTTP 404 for https://gamscdn.com/web-v3/static/main.df7825131207.js
+✅ Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/remoteEntry.js
+📥 Downloading: https://gamscdn.com/web-v3/static/12767160.12767160.52a09b410d97.js
+Download attempt 1 for: https://gamscdn.com/web-v3/static/12767160.12767160.52a09b410d97.js
+Download attempt 1 failed, retrying... HTTP 404 for https://gamscdn.com/web-v3/static/12767160.12767160.52a09b410d97.js
+Download attempt 2 for: https://gamscdn.com/web-v3/static/12767160.12767160.52a09b410d97.js
+❌ Error downloading https://gamscdn.com/web-v3/static/12767160.12767160.52a09b410d97.js: HTTP 404 for https://gamscdn.com/web-v3/static/12767160.12767160.52a09b410d97.js
+✅ Already exists: https://gamscdn.com/web-v3/static/90301927.90301927.77d96f504ddf.css
+✅ Already exists: https://gamscdn.com/web-v3/static/Montserrat-normal-600.cd7f1c8ad6d9.woff2
+✅ Already exists: https://gamscdn.com/web-v3/static/bonuses-icons.e8e7fca8a317.svg
+📥 Downloading: https://planbetbj.com/games-frame/static/26776795.26776795.b3335b97669d.js
+Download attempt 1 for: https://planbetbj.com/games-frame/static/26776795.26776795.b3335b97669d.js
+Download attempt 1 failed, retrying... HTTP 404 for https://planbetbj.com/games-frame/static/26776795.26776795.b3335b97669d.js
+Download attempt 2 for: https://planbetbj.com/games-frame/static/26776795.26776795.b3335b97669d.js
+❌ Error downloading https://planbetbj.com/games-frame/static/26776795.26776795.b3335b97669d.js: HTTP 404 for https://planbetbj.com/games-frame/static/26776795.26776795.b3335b97669d.js
+📥 Downloading: https://planbetbj.com/games-frame/static/6464379.6464379.b65b9036eff3.js
+Download attempt 1 for: https://planbetbj.com/games-frame/static/6464379.6464379.b65b9036eff3.js
+Download attempt 1 failed, retrying... HTTP 404 for https://planbetbj.com/games-frame/static/6464379.6464379.b65b9036eff3.js
+Download attempt 2 for: https://planbetbj.com/games-frame/static/6464379.6464379.b65b9036eff3.js
+❌ Error downloading https://planbetbj.com/games-frame/static/6464379.6464379.b65b9036eff3.js: HTTP 404 for https://planbetbj.com/games-frame/static/6464379.6464379.b65b9036eff3.js
+📥 Downloading: https://planbetbj.com/games-frame/static/98589310.98589310.c1fa094655bd.js
+Download attempt 1 for: https://planbetbj.com/games-frame/static/98589310.98589310.c1fa094655bd.js
+Download attempt 1 failed, retrying... HTTP 404 for https://planbetbj.com/games-frame/static/98589310.98589310.c1fa094655bd.js
+Download attempt 2 for: https://planbetbj.com/games-frame/static/98589310.98589310.c1fa094655bd.js
+❌ Error downloading https://planbetbj.com/games-frame/static/98589310.98589310.c1fa094655bd.js: HTTP 404 for https://planbetbj.com/games-frame/static/98589310.98589310.c1fa094655bd.js
+🎉 Critical resources download completed: 12 successful, 5 errors
+🚀 Starting critical resources download...
+📥 Downloading: https://gamscdn.com/web-v3/mfs/game-thimbles/common.manifest.6fc7d90bc807.json
+Download attempt 1 for: https://gamscdn.com/web-v3/mfs/game-thimbles/common.manifest.6fc7d90bc807.json
+✅ Successfully downloaded: https://gamscdn.com/web-v3/mfs/game-thimbles/common.manifest.6fc7d90bc807.json
+📥 Downloading: https://gamscdn.com/web-v3/mfs/game-thimbles/desktop.manifest.65c4b08b0376.json
+Download attempt 1 for: https://gamscdn.com/web-v3/mfs/game-thimbles/desktop.manifest.65c4b08b0376.json
+✅ Successfully downloaded: https://gamscdn.com/web-v3/mfs/game-thimbles/desktop.manifest.65c4b08b0376.json
+📥 Downloading: https://gamscdn.com/web-v3/mfs/game-thimbles/background.fbddba313eee.skel
+Download attempt 1 for: https://gamscdn.com/web-v3/mfs/game-thimbles/background.fbddba313eee.skel
+✅ Successfully downloaded: https://gamscdn.com/web-v3/mfs/game-thimbles/background.fbddba313eee.skel
+📥 Downloading: https://gamscdn.com/web-v3/mfs/game-thimbles/thimbles.09788070dbcf.skel
+Download attempt 1 for: https://gamscdn.com/web-v3/mfs/game-thimbles/thimbles.09788070dbcf.skel
+✅ Successfully downloaded: https://gamscdn.com/web-v3/mfs/game-thimbles/thimbles.09788070dbcf.skel
+📥 Downloading: https://gamscdn.com/web-v3/mfs/game-thimbles/background%401x.a165bd1d7c97.png
+Download attempt 1 for: https://gamscdn.com/web-v3/mfs/game-thimbles/background%401x.a165bd1d7c97.png
+✅ Successfully downloaded: https://gamscdn.com/web-v3/mfs/game-thimbles/background%401x.a165bd1d7c97.png
+📥 Downloading: https://gamscdn.com/web-v3/mfs/game-thimbles/thimbles%401x.997e4c4e44c3.atlas
+Download attempt 1 for: https://gamscdn.com/web-v3/mfs/game-thimbles/thimbles%401x.997e4c4e44c3.atlas
+✅ Successfully downloaded: https://gamscdn.com/web-v3/mfs/game-thimbles/thimbles%401x.997e4c4e44c3.atlas
+📥 Downloading: https://gamscdn.com/web-v3/mfs/game-thimbles/popup.d7ca3cb5013a.skel
+Download attempt 1 for: https://gamscdn.com/web-v3/mfs/game-thimbles/popup.d7ca3cb5013a.skel
+✅ Successfully downloaded: https://gamscdn.com/web-v3/mfs/game-thimbles/popup.d7ca3cb5013a.skel
+📥 Downloading: https://gamscdn.com/web-v3/mfs/game-thimbles/mobile.scene.c5a1ea6c9350.json
+Download attempt 1 for: https://gamscdn.com/web-v3/mfs/game-thimbles/mobile.scene.c5a1ea6c9350.json
+✅ Successfully downloaded: https://gamscdn.com/web-v3/mfs/game-thimbles/mobile.scene.c5a1ea6c9350.json
+📥 Downloading: https://gamscdn.com/web-v3/static/main.df7825131207.js
+Download attempt 1 for: https://gamscdn.com/web-v3/static/main.df7825131207.js
+Download attempt 1 failed, retrying... HTTP 404 for https://gamscdn.com/web-v3/static/main.df7825131207.js
+Download attempt 2 for: https://gamscdn.com/web-v3/static/main.df7825131207.js
+❌ Error downloading https://gamscdn.com/web-v3/static/main.df7825131207.js: HTTP 404 for https://gamscdn.com/web-v3/static/main.df7825131207.js
+📥 Downloading: https://gamscdn.com/web-v3/mfs/game-thimbles/remoteEntry.js
+Download attempt 1 for: https://gamscdn.com/web-v3/mfs/game-thimbles/remoteEntry.js
+✅ Successfully downloaded: https://gamscdn.com/web-v3/mfs/game-thimbles/remoteEntry.js
+📥 Downloading: https://gamscdn.com/web-v3/static/12767160.12767160.52a09b410d97.js
+Download attempt 1 for: https://gamscdn.com/web-v3/static/12767160.12767160.52a09b410d97.js
+Download attempt 1 failed, retrying... HTTP 404 for https://gamscdn.com/web-v3/static/12767160.12767160.52a09b410d97.js
+Download attempt 2 for: https://gamscdn.com/web-v3/static/12767160.12767160.52a09b410d97.js
+❌ Error downloading https://gamscdn.com/web-v3/static/12767160.12767160.52a09b410d97.js: HTTP 404 for https://gamscdn.com/web-v3/static/12767160.12767160.52a09b410d97.js
+📥 Downloading: https://gamscdn.com/web-v3/static/90301927.90301927.77d96f504ddf.css
+Download attempt 1 for: https://gamscdn.com/web-v3/static/90301927.90301927.77d96f504ddf.css
+✅ Successfully downloaded: https://gamscdn.com/web-v3/static/90301927.90301927.77d96f504ddf.css
+📥 Downloading: https://gamscdn.com/web-v3/static/Montserrat-normal-600.cd7f1c8ad6d9.woff2
+Download attempt 1 for: https://gamscdn.com/web-v3/static/Montserrat-normal-600.cd7f1c8ad6d9.woff2
+✅ Successfully downloaded: https://gamscdn.com/web-v3/static/Montserrat-normal-600.cd7f1c8ad6d9.woff2
+📥 Downloading: https://gamscdn.com/web-v3/static/bonuses-icons.e8e7fca8a317.svg
+Download attempt 1 for: https://gamscdn.com/web-v3/static/bonuses-icons.e8e7fca8a317.svg
+✅ Successfully downloaded: https://gamscdn.com/web-v3/static/bonuses-icons.e8e7fca8a317.svg
+📥 Downloading: https://planbetbj.com/games-frame/static/26776795.26776795.b3335b97669d.js
+Download attempt 1 for: https://planbetbj.com/games-frame/static/26776795.26776795.b3335b97669d.js
+Download attempt 1 failed, retrying... HTTP 404 for https://planbetbj.com/games-frame/static/26776795.26776795.b3335b97669d.js
+Download attempt 2 for: https://planbetbj.com/games-frame/static/26776795.26776795.b3335b97669d.js
+❌ Error downloading https://planbetbj.com/games-frame/static/26776795.26776795.b3335b97669d.js: HTTP 404 for https://planbetbj.com/games-frame/static/26776795.26776795.b3335b97669d.js
+📥 Downloading: https://planbetbj.com/games-frame/static/6464379.6464379.b65b9036eff3.js
+Download attempt 1 for: https://planbetbj.com/games-frame/static/6464379.6464379.b65b9036eff3.js
+Download attempt 1 failed, retrying... HTTP 404 for https://planbetbj.com/games-frame/static/6464379.6464379.b65b9036eff3.js
+Download attempt 2 for: https://planbetbj.com/games-frame/static/6464379.6464379.b65b9036eff3.js
+❌ Error downloading https://planbetbj.com/games-frame/static/6464379.6464379.b65b9036eff3.js: HTTP 404 for https://planbetbj.com/games-frame/static/6464379.6464379.b65b9036eff3.js
+📥 Downloading: https://planbetbj.com/games-frame/static/98589310.98589310.c1fa094655bd.js
+Download attempt 1 for: https://planbetbj.com/games-frame/static/98589310.98589310.c1fa094655bd.js
+Download attempt 1 failed, retrying... HTTP 404 for https://planbetbj.com/games-frame/static/98589310.98589310.c1fa094655bd.js
+Download attempt 2 for: https://planbetbj.com/games-frame/static/98589310.98589310.c1fa094655bd.js
+❌ Error downloading https://planbetbj.com/games-frame/static/98589310.98589310.c1fa094655bd.js: HTTP 404 for https://planbetbj.com/games-frame/static/98589310.98589310.c1fa094655bd.js
+🎉 Critical resources download completed: 12 successful, 5 errors
+(node:32116) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+🔁 Proxying: https://gamscdn.com/web-v3/version.json
+💾 Cached: https://gamscdn.com/web-v3/version.json
+🔁 Proxying: https://gamscdn.com/web-v3/static/icons-sprite.63f518a2e03b.svg
+🔁 Proxying: https://gamscdn.com/web-v3/static/bonuses-icons.e8e7fca8a317.svg
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/icons-sprite-thimbles.c69289f3499c.svg
+📁 Serving from cache: https://gamscdn.com/web-v3/static/bonuses-icons.e8e7fca8a317.svg
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/common.manifest.6fc7d90bc807.json
+📁 Serving from cache: https://gamscdn.com/web-v3/mfs/game-thimbles/common.manifest.6fc7d90bc807.json
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/desktop.manifest.65c4b08b0376.json
+📁 Serving from cache: https://gamscdn.com/web-v3/mfs/game-thimbles/desktop.manifest.65c4b08b0376.json
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/desktop.scene.e3cce6dd654a.json
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/mobile.scene.c5a1ea6c9350.json
+📁 Serving from cache: https://gamscdn.com/web-v3/mfs/game-thimbles/mobile.scene.c5a1ea6c9350.json
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/[name]-0.a266ef635e4e.json
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/animation_vfx01-0.4463ae61c144.json
+💾 Cached: https://gamscdn.com/web-v3/mfs/game-thimbles/icons-sprite-thimbles.c69289f3499c.svg
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/background.fbddba313eee.skel
+📁 Serving from cache: https://gamscdn.com/web-v3/mfs/game-thimbles/background.fbddba313eee.skel
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/info.91a1d4b91d47.skel
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/light.39aac51cb980.skel
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/popup.d7ca3cb5013a.skel
+📁 Serving from cache: https://gamscdn.com/web-v3/mfs/game-thimbles/popup.d7ca3cb5013a.skel
+💾 Cached: https://gamscdn.com/web-v3/mfs/game-thimbles/[name]-0.a266ef635e4e.json
+💾 Cached: https://gamscdn.com/web-v3/static/icons-sprite.63f518a2e03b.svg
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/thimbles.09788070dbcf.skel
+📁 Serving from cache: https://gamscdn.com/web-v3/mfs/game-thimbles/thimbles.09788070dbcf.skel
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/background@1x.bc665481762d.atlas
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/popup@1x.a3fbeaea7d75.atlas
+💾 Cached: https://gamscdn.com/web-v3/mfs/game-thimbles/light.39aac51cb980.skel
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/thimbles@1x.997e4c4e44c3.atlas
+💾 Cached: https://gamscdn.com/web-v3/mfs/game-thimbles/info.91a1d4b91d47.skel
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/light@1x.00782da15807.atlas
+💾 Cached: https://gamscdn.com/web-v3/mfs/game-thimbles/background@1x.bc665481762d.atlas
+🔁 Proxying: https://gamscdn.com/web-v3/mfs/game-thimbles/info@1x.77a25c67c281.atlas
+💾 Cached: https://gamscdn.com/web-v3/mfs/game-thimbles/animation_vfx01-0.4463ae61c144.json
+💾 Cached: https://gamscdn.com/web-v3/mfs/game-thimbles/desktop.scene.e3cce6dd654a.json
+💾 Cached: https://gamscdn.com/web-v3/mfs/game-thimbles/popup@1x.a3fbeaea7d75.atlas
+💾 Cached: https://gamscdn.com/web-v3/mfs/game-thimbles/light@1x.00782da15807.atlas
+💾 Cached: https://gamscdn.com/web-v3/mfs/game-thimbles/thimbles@1x.997e4c4e44c3.atlas
+💾 Cached: https://gamscdn.com/web-v3/mfs/game-thimbles/info@1x.77a25c67c281.atlas
