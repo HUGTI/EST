@@ -1,0 +1,35 @@
+Microsoft Windows [version 10.0.22000.1574]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\Admin>cd nod-pro
+
+C:\Users\Admin\nod-pro>node server.js
+[HPM] Proxy created: /  -> https://planbetbj.com
+HTTP redirect server running on http://localhost:3000 (redirects to HTTPS)
+HTTPS Proxy server running on https://localhost:3443
+Proxying to: https://planbetbj.com
+ALL gamscdn.com requests will be forced through proxy
+Critical endpoints:
+  - /download-missing - Download missing critical resources
+  - /debug/stats - Check server statistics
+Starting critical resources download...
+Downloading critical resources...
+Downloading: https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+Error downloading https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json Failed to download https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json: 405
+Critical resources download completed: 22 successful, 1 errors
+Downloading critical resources...
+Downloading: https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+Error downloading https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json Failed to download https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json: 405
+Critical resources download completed: 22 successful, 1 errors
+(node:2880) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-10-27T18:45:39.906Z - GET /proxy-resource?url=https%3A%2F%2Fgamscdn.com%2Fweb-v3%2Fversion.json
+WARNING: Direct external request detected: /proxy-resource?url=https%3A%2F%2Fgamscdn.com%2Fweb-v3%2Fversion.json
+PROXY REQUEST: https://gamscdn.com/web-v3/version.json
+FORCING PROXY for gamscdn.com resource: https://gamscdn.com/web-v3/version.json
+Serving from local cache: https://gamscdn.com/web-v3/version.json
+2025-10-27T18:45:39.949Z - GET /proxy-resource?url=%2Fproxy-resource%3Furl%3Dhttps%253A%252F%252Fgamscdn.com%252Fweb-v3%252Fstatic%252Fmain.409895899f2c.js
+WARNING: Direct external request detected: /proxy-resource?url=%2Fproxy-resource%3Furl%3Dhttps%253A%252F%252Fgamscdn.com%252Fweb-v3%252Fstatic%252Fmain.409895899f2c.js
+PROXY REQUEST: /proxy-resource?url=https%3A%2F%2Fgamscdn.com%2Fweb-v3%2Fstatic%2Fmain.409895899f2c.js
+FORCING PROXY for gamscdn.com resource: /proxy-resource?url=https://gamscdn.com/web-v3/static/main.409895899f2c.js
+Error proxying resource: /proxy-resource?url=https://gamscdn.com/web-v3/static/main.409895899f2c.js Invalid URL
