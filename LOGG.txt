@@ -1,0 +1,1585 @@
+Microsoft Windows [version 10.0.22000.1574]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\Admin>cd nod-pro
+
+C:\Users\Admin\nod-pro>node server.js
+[HPM] Proxy created: /  -> https://planbetbj.com
+HTTP redirect server running on http://localhost:3000 (redirects to HTTPS)
+HTTPS Proxy server running on https://localhost:3443
+Proxying to: https://planbetbj.com
+Debug endpoints available:
+  - /debug/canvas - Get canvas information
+  - /debug/requests - Get all requests
+  - /debug/tainted - Get tainted resources
+  - /debug/external - Get external resources
+  - /debug/bypassed - Get bypassed resources
+  - /debug/webgl - Get WebGL resources
+  - /debug/local - Get locally served resources
+  - /debug/stats - Get server statistics
+  - /debug/resources/:type - Get resources by type
+  - /debug/reset - Reset debug info
+  - /proxy-resource - Proxy any external resource with CORS headers
+  - /service-worker.js - Service worker for intercepting fetch requests
+  - /preload-webgl-resources - Preload critical WebGL resources
+  - /download-resource - Download specific resource to local cache
+  - /debug/download - Manually download a resource
+  - /force-download-all - Force download all critical resources
+  - /warmup - Warm up critical resources cache
+  - /debug/check-proxy - Check proxy configuration
+  - /Thimbles_files/* - Serve static files with CORS headers
+  - /static/* - Serve locally cached files with CORS headers
+Downloading critical resources...
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/common.manifest.6fc7d90bc807.json
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/desktop.manifest.65c4b08b0376.json
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/background.fbddba313eee.skel
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/thimbles.09788070dbcf.skel
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/background%401x.a165bd1d7c97.png
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/thimbles%401x.997e4c4e44c3.atlas
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/popup.d7ca3cb5013a.skel
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/mobile.scene.c5a1ea6c9350.json
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/12767160.12767160.52a09b410d97.js
+Already exists: https://gamscdn.com/web-v3/static/90301927.90301927.77d96f504ddf.css
+Already exists: https://gamscdn.com/web-v3/static/Montserrat-normal-600.cd7f1c8ad6d9.woff2
+Already exists: https://gamscdn.com/web-v3/static/bonuses-icons.e8e7fca8a317.svg
+Already exists: https://gamscdn.com/web-v3/static/jackpot-body-sprite-numbers.61f5db0127f1.png
+Already exists: https://planbetbj.com/games-frame/static/26776795.26776795.b3335b97669d.js
+Already exists: https://planbetbj.com/games-frame/static/6464379.6464379.b65b9036eff3.js
+Already exists: https://planbetbj.com/games-frame/static/98589310.98589310.c1fa094655bd.js
+Already exists: https://planbetbj.com/games-frame/static/54352046.54352046.69126cb0b3cb.js
+Already exists: https://planbetbj.com/games-frame/static/96240075.96240075.8649c515e277.js
+Already exists: https://planbetbj.com/games-frame/static/30498263.30498263.f62bee9e850d.js
+Already exists: https://planbetbj.com/games-frame/static/26085516.26085516.cab8b4bec1b1.js
+Already exists: https://planbetbj.com/games-frame/static/apps_app-default-web-v3.bootstrap.84636182.ffe58c7ed1df.js
+Already exists: https://planbetbj.com/games-frame/static/35017703.35017703.4b87fbba6cbc.js
+Already exists: https://planbetbj.com/games-frame/static/61169397.61169397.689a0d09c455.js
+Already exists: https://planbetbj.com/games-frame/static/63000008.63000008.bbcf122042dd.js
+Already exists: https://planbetbj.com/games-frame/static/31307001.31307001.f3fc4932025b.js
+Already exists: https://planbetbj.com/games-frame/static/Roboto-normal-400.dde3c1b8eb08.woff2
+Already exists: https://planbetbj.com/games-frame/static/Montserrat-normal-600.cd7f1c8ad6d9.woff2
+Already exists: https://planbetbj.com/games-frame/static/Montserrat-normal-400.04369fb900cf.woff2
+Already exists: https://planbetbj.com/games-frame/static/Roboto-normal-700.095ae76c9e18.woff2
+Already exists: https://planbetbj.com/games-frame/static/Montserrat-normal-700.a3a7227c9456.woff2
+Downloading: https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+Download attempt 1 failed, retrying... Failed to download https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json: 405
+Download attempt 2 failed, retrying... Failed to download https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json: 405
+Error downloading https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json Failed to download https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json: 405
+Already exists: https://planbetbj.com/games-frame/games/62?co=25&cu=27&lg=en&wh=55&tzo=1
+Already exists: https://planbetbj.com/games-frame/service-api/frontend/cdn-config?whence=55
+Already exists: https://planbetbj.com/favicon.ico
+Already exists: https://planbetbj.com/genfiles/cms/387-1329/desktop/media_asset/6bb54004f9eff8d34922bea15fe85b0d.png
+Already exists: https://planbetbj.com/games-frame/project?whence=55
+Already exists: https://planbetbj.com/games-frame/translations/version
+Already exists: https://planbetbj.com/games-frame/service-api/maintenance-mode
+Already exists: https://planbetbj.com/games-frame/service-api/games-preview/GetGamesActions?language=en&whence=55
+Already exists: https://planbetbj.com/games-frame/translations/en/bonuses.json
+Already exists: https://planbetbj.com/games-frame/translations/en/common.json
+Already exists: https://planbetbj.com/games-frame/translations/en/rulesCommon.json
+Already exists: https://planbetbj.com/games-frame/translations/en/offers.json
+Already exists: https://planbetbj.com/games-frame/service-api/games-feed/authorization/MinMax/ByCurrency?language=en&whence=55&CI=27&GI=62&ref=387
+Already exists: https://planbetbj.com/games-frame/mfs/game-thimbles/remoteEntry.js?v=6ce5f8621de0a9f6
+Already exists: https://planbetbj.com/games-frame/api/games/thimbles
+Already exists: https://planbetbj.com/games-frame/translations/en/thimbles.json
+Already exists: https://planbetbj.com/games-frame/service-api/games-thimbles/GetCoeffs?language=en&whence=55
+Already exists: https://planbetbj.com/games-frame/translations/en/jackpot.json
+Downloading: https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+Download attempt 1 failed, retrying... Failed to download https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json: 405
+Download attempt 2 failed, retrying... Failed to download https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json: 405
+Error downloading https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json Failed to download https://planbetbj.com/games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json: 405
+Already exists: https://planbetbj.com/games-frame/service-api/games-feed/Jackpot/GetJackpotInfoByCur?language=en&whence=55&currencyId=27
+Already exists: https://gamscdn.com/web-v3/static/10613201.10613201.6f399e7aa04b.js
+Already exists: https://gamscdn.com/web-v3/static/25111092.25111092.424632d774a1.js
+Already exists: https://gamscdn.com/web-v3/static/24992105.24992105.ea5ee8342ee6.js
+Already exists: https://gamscdn.com/web-v3/static/24973154.24973154.831f7e32b407.js
+Already exists: https://gamscdn.com/web-v3/static/22878246.22878246.4c46a6284d3f.js
+Already exists: https://gamscdn.com/web-v3/static/22857420.22857420.a53ab967909c.js
+Already exists: https://gamscdn.com/web-v3/static/20770255.20770255.fd425c579635.js
+Already exists: https://gamscdn.com/web-v3/static/20191420.20191420.44f9704e274e.js
+Already exists: https://gamscdn.com/web-v3/static/19345150.19345150.e2351964a85f.js
+Already exists: https://gamscdn.com/web-v3/static/18003459.18003459.9c4ea51dc4fd.js
+Already exists: https://gamscdn.com/web-v3/static/16127496.16127496.fb479b6e15cf.js
+Already exists: https://gamscdn.com/web-v3/static/14687768.14687768.ceeffc82bbe4.js
+Already exists: https://gamscdn.com/web-v3/static/13991975.13991975.074067047673.js
+Already exists: https://gamscdn.com/web-v3/static/13930271.13930271.c9282d663ee3.js
+Already exists: https://gamscdn.com/web-v3/static/12767160.12767160.52a09b410d97.js
+Already exists: https://gamscdn.com/web-v3/static/12616011.12616011.33c7da618d9e.js
+Already exists: https://gamscdn.com/web-v3/static/12217213.12217213.89107f4cea12.js
+Already exists: https://gamscdn.com/web-v3/static/31307001.31307001.a1dc9fa354f3.js
+Already exists: https://gamscdn.com/web-v3/static/31371831.31371831.ef1be25d04e2.js
+Already exists: https://gamscdn.com/web-v3/static/35017703.35017703.599bd783d137.js
+Already exists: https://gamscdn.com/web-v3/static/35877627.35877627.268a23188f46.js
+Already exists: https://gamscdn.com/web-v3/static/3594813.3594813.0a5ba55c6b53.js
+Already exists: https://gamscdn.com/web-v3/static/37967677.37967677.fe8e618c23f4.js
+Already exists: https://gamscdn.com/web-v3/static/38306811.38306811.97b267d8aef5.js
+Already exists: https://gamscdn.com/web-v3/static/38757413.38757413.7628bc69939e.js
+Already exists: https://gamscdn.com/web-v3/static/30498263.30498263.cc50094165ce.js
+Already exists: https://gamscdn.com/web-v3/static/2938193.2938193.15e41274e642.js
+Already exists: https://gamscdn.com/web-v3/static/28846249.28846249.940d3c968991.js
+Already exists: https://gamscdn.com/web-v3/static/27877217.27877217.f5f69710e3b6.js
+Already exists: https://gamscdn.com/web-v3/static/26776795.26776795.a938f15e7b22.js
+Already exists: https://gamscdn.com/web-v3/static/26670778.26670778.7f0b89e3b1f6.js
+Already exists: https://gamscdn.com/web-v3/static/26085516.26085516.3f37609df982.js
+Already exists: https://gamscdn.com/web-v3/static/25261146.25261146.51dfcceddf87.js
+Already exists: https://gamscdn.com/web-v3/static/25133570.25133570.e4a7c6ba7519.js
+Already exists: https://gamscdn.com/web-v3/static/63000008.63000008.df73a9b87a2c.js
+Already exists: https://gamscdn.com/web-v3/static/63390544.63390544.f58f4d6a8a15.js
+Already exists: https://gamscdn.com/web-v3/static/63925496.63925496.67c81a5b1829.js
+Already exists: https://gamscdn.com/web-v3/static/64073094.64073094.dbb29290d780.js
+Already exists: https://gamscdn.com/web-v3/static/6464379.6464379.ed0ad8cb6b28.js
+Already exists: https://gamscdn.com/web-v3/static/64759318.64759318.de419128370c.js
+Already exists: https://gamscdn.com/web-v3/static/65164574.65164574.951adaa7756a.js
+Already exists: https://gamscdn.com/web-v3/static/6558634.6558634.82daf6932412.js
+Already exists: https://gamscdn.com/web-v3/static/66835474.66835474.298c2cd45f76.js
+Already exists: https://gamscdn.com/web-v3/static/626187.626187.57f00186ba72.js
+Already exists: https://gamscdn.com/web-v3/static/61757761.61757761.a7c2c488a173.js
+Already exists: https://gamscdn.com/web-v3/static/61169397.61169397.f480aa3c557d.js
+Already exists: https://gamscdn.com/web-v3/static/60873823.60873823.6a3e85e77422.js
+Already exists: https://gamscdn.com/web-v3/static/58315105.58315105.0e2ae92873ef.js
+Already exists: https://gamscdn.com/web-v3/static/5693519.5693519.5f2e6e7cab2e.js
+Already exists: https://gamscdn.com/web-v3/static/56558015.56558015.8cbb5147a4fc.js
+Already exists: https://gamscdn.com/web-v3/static/56446861.56446861.a8cde0797458.js
+Already exists: https://gamscdn.com/web-v3/static/56174419.56174419.329cc96fe817.js
+Already exists: https://gamscdn.com/web-v3/static/54352046.54352046.e42150c07e09.js
+Already exists: https://gamscdn.com/web-v3/static/53989946.53989946.dd0567cc0b6b.js
+Already exists: https://gamscdn.com/web-v3/static/53895257.53895257.878500267003.js
+Already exists: https://gamscdn.com/web-v3/static/49983189.49983189.371093068d3a.js
+Already exists: https://gamscdn.com/web-v3/static/49793499.49793499.f1a53a606192.js
+Already exists: https://gamscdn.com/web-v3/static/48997207.48997207.f2b353697d6a.js
+Already exists: https://gamscdn.com/web-v3/static/47257778.47257778.da6b68ef7180.js
+Already exists: https://gamscdn.com/web-v3/static/46680541.46680541.c7dfc7147579.js
+Already exists: https://gamscdn.com/web-v3/static/46637997.46637997.89a798fc1b19.js
+Already exists: https://gamscdn.com/web-v3/static/43770292.43770292.431db249db58.js
+Already exists: https://gamscdn.com/web-v3/static/42561440.42561440.44180dd6c08e.js
+Already exists: https://gamscdn.com/web-v3/static/41416153.41416153.6dff636b35fc.js
+Already exists: https://gamscdn.com/web-v3/static/40268409.40268409.81df612ca6b6.js
+Already exists: https://gamscdn.com/web-v3/static/40018987.40018987.c1e6152d9249.js
+Already exists: https://gamscdn.com/web-v3/static/breadcrumbs.67847015.e52b743007fb.js
+Already exists: https://gamscdn.com/web-v3/static/jackpot.Desktop.66501589.80c50f6baafc.js
+Already exists: https://gamscdn.com/web-v3/static/main.df7825131207.js
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/remoteEntry.js
+Already exists: https://gamscdn.com/web-v3/static/ui-components-assets0.23203172.ee23ed4fbdcf.js
+Already exists: https://gamscdn.com/web-v3/static/bonuses.desktop.99082190.88ace9cc7370.js
+Already exists: https://gamscdn.com/web-v3/static/apps_host-b2c-web-v3.bootstrap.98130127.56117fb37f0e.js
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/ThimblesDesktopManifest.26376474.d245bf2d296c.js
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/ThimblesCommonManifest.60389435.2443f90300bc.js
+Already exists: https://gamscdn.com/web-v3/static/Themes.Planbet-Default-index-ts.6495828.d45c3a64d7d4.js
+Already exists: https://gamscdn.com/web-v3/static/99712821.99712821.a6b9a6bb2d77.js
+Already exists: https://gamscdn.com/web-v3/static/99653244.99653244.fb1fbb75d9e0.js
+Already exists: https://gamscdn.com/web-v3/static/99117323.99117323.ec99f651791e.js
+Already exists: https://gamscdn.com/web-v3/static/98816949.98816949.a0c856a8b0f9.js
+Already exists: https://gamscdn.com/web-v3/static/98589310.98589310.d25719992ae0.js
+Already exists: https://gamscdn.com/web-v3/static/97775718.97775718.d8bfe38fee61.js
+Already exists: https://gamscdn.com/web-v3/static/96240075.96240075.39f51ded1a16.js
+Already exists: https://gamscdn.com/web-v3/static/95258750.95258750.085e947f94b6.js
+Already exists: https://gamscdn.com/web-v3/static/93955524.93955524.946c596c4d3b.js
+Already exists: https://gamscdn.com/web-v3/static/91686671.91686671.a06be6e3fa90.js
+Already exists: https://gamscdn.com/web-v3/static/90301927.90301927.251a4024140f.js
+Already exists: https://gamscdn.com/web-v3/static/8837242.8837242.9c89dc4eb817.js
+Already exists: https://gamscdn.com/web-v3/static/86427637.86427637.feee28e58b04.js
+Already exists: https://gamscdn.com/web-v3/static/85383299.85383299.2dae12cc1650.js
+Already exists: https://gamscdn.com/web-v3/static/85357574.85357574.fc3a6f575ab3.js
+Already exists: https://gamscdn.com/web-v3/static/83808813.83808813.7d065f0333d8.js
+Already exists: https://gamscdn.com/web-v3/static/82418736.82418736.446262d6b61a.js
+Already exists: https://gamscdn.com/web-v3/static/68012030.68012030.3ba0d7d438a5.js
+Already exists: https://gamscdn.com/web-v3/static/76125570.76125570.0861de14452a.js
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/67425324.67425324.1dfc2de07307.js
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/76396570.76396570.71f601b547ca.js
+Already exists: https://gamscdn.com/web-v3/static/77424332.77424332.60c0c1ff42b8.js
+Already exists: https://gamscdn.com/web-v3/static/79833750.79833750.6104f738b928.js
+Already exists: https://gamscdn.com/web-v3/static/80190837.80190837.d1e2f17b1cc6.js
+Already exists: https://gamscdn.com/web-v3/static/breadcrumbs.67847015.636cf85007b8.css
+Already exists: https://gamscdn.com/web-v3/static/626187.626187.41941802ea70.css
+Already exists: https://gamscdn.com/web-v3/static/56174419.56174419.5fbb356f4d40.css
+Already exists: https://gamscdn.com/web-v3/static/77424332.77424332.b1cb9f1d782e.css
+Already exists: https://gamscdn.com/web-v3/static/90301927.90301927.77d96f504ddf.css
+Already exists: https://gamscdn.com/web-v3/static/24992105.24992105.ec60b381161a.css
+Already exists: https://gamscdn.com/web-v3/static/63000008.63000008.5c06568dc4f6.css
+Already exists: https://gamscdn.com/web-v3/static/apps_host-b2c-web-v3.bootstrap.98130127.b863c2629d41.css
+Already exists: https://gamscdn.com/web-v3/static/Themes.Planbet-Default-index-ts.6495828.e9dbb1a8e48b.css
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/31371831.31371831.a8743eba4c79.css
+Already exists: https://gamscdn.com/web-v3/static/jackpot.Desktop.66501589.46e018937a5d.css
+Already exists: https://gamscdn.com/web-v3/static/bonuses.desktop.99082190.7a50ff6ec65f.css
+Already exists: https://gamscdn.com/web-v3/static/Roboto-normal-400.dde3c1b8eb08.woff2
+Already exists: https://gamscdn.com/web-v3/static/Montserrat-normal-600.cd7f1c8ad6d9.woff2
+Already exists: https://gamscdn.com/web-v3/static/Montserrat-normal-400.04369fb900cf.woff2
+Already exists: https://gamscdn.com/web-v3/static/Montserrat-normal-700.a3a7227c9456.woff2
+Already exists: https://gamscdn.com/web-v3/static/Roboto-normal-700.095ae76c9e18.woff2
+Already exists: https://gamscdn.com/web-v3/static/Roboto-normal-500.0565ec9280dc.woff2
+Already exists: https://gamscdn.com/web-v3/static/sprite.95be757093b7.svg
+Already exists: https://gamscdn.com/web-v3/static/icons-sprite.63f518a2e03b.svg
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/arrow-sprite.fcc08a58ab65.png
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/icons-sprite-thimbles.c69289f3499c.svg
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/rules-wrap.5e35b2e3bc5d.png
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/switch.11e203988673.png
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/btn-ui-sprite.2fbbc250c58e.png
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/btn-ui-wrap.27241acbd4f5.png
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/btn-second-sprite.387222dc573f.png
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/btn-bet-sprite.fd2413067048.png
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/btn-play-sprite.3153eaaeb5f4.png
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/btn-play-wrap.3513b15c8aab.png
+Already exists: https://gamscdn.com/web-v3/static/jackpot-body-glare.d38fa855d38c.png
+Already exists: https://gamscdn.com/web-v3/static/jackpot-body-scoreboard.58338ef435b5.png
+Already exists: https://gamscdn.com/web-v3/static/jackpot-body-sprite-numbers.61f5db0127f1.png
+Already exists: https://gamscdn.com/web-v3/static/jackpot-coin.af42cd4ee3d0.png
+Already exists: https://gamscdn.com/web-v3/static/jackpot-footer-currency-bg.32f03c69ab51.png
+Already exists: https://gamscdn.com/web-v3/static/jackpot-header-bg.1b89dcf9335b.png
+Already exists: https://gamscdn.com/web-v3/static/jackpot-header-sprite-flashlights.4083a7540f11.png
+Already exists: https://gamscdn.com/web-v3/static/jackpot-header-sprite-glares.e7aec5574b84.png
+Already exists: https://gamscdn.com/web-v3/static/jackpot-rules-bg.d72817b7f5d9.png
+Already exists: https://gamscdn.com/web-v3/static/jackpot-rules-glare-right.b354668a63a7.png
+Already exists: https://gamscdn.com/web-v3/static/jackpot-rules-glare-top.1ea1d6ca3c25.png
+Already exists: https://gamscdn.com/web-v3/static/bonuses-icons.e8e7fca8a317.svg
+Already exists: https://gamscdn.com/web-v3/static/emptyBonusesStars.fa2c119b5b5f.png
+Already exists: https://gamscdn.com/web-v3/static/icoFreeSpin.1e4c886481fa.png
+Already exists: https://gamscdn.com/web-v3/static/luckyWheelActivityImg.aec6bcecdce8.png
+Already exists: https://gamscdn.com/web-v3/static/sidebarModalGiftGreen.71b7090a20dd.png
+Already exists: https://gamscdn.com/web-v3/static/sidebarModalGiftRed.cd62b26189cc.png
+Already exists: https://gamscdn.com/web-v3/mfs/game-thimbles/btn-choice-sprite.76b500c1956c.png
+Already exists: data:font/woff2;base64,d09GMgABAAAAAADwAAoAAAAAAiQAAACoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAALAogOAE2AiQDBgsGAAQgBSAHIBuDAciO1EZ3I/mL5/+5/rfPnTt9/9Qa8H4cUUZxaRbh36LiKJoVh61XGzw6ufkpoeZBW4KphwFYIJGHB4LAY4hDY++gW+6N1EN94I49v86yCpUdYgqeZrOWN34CMQg2tAmthdli0eePIwAKNIIRS4AGZFzdX9lbBUAQlm//f262/61o8PlYO/D1/X4FrWFFgdCQD9DpGJSxmFyjOAGUU4P0qigcNb82GAAA
+Already exists: data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA
+Downloading: data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAADybWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAeaWxvYwAAAABEAAABAAEAAAABAAABGgAAAB0AAAAoaWluZgAAAAAAAQAAABppbmZlAgAAAAABAABhdjAxQ29sb3IAAAAAamlwcnAAAABLaXBjbwAAABRpc3BlAAAAAAAAAAIAAAACAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQ0MAAAAABNjb2xybmNseAACAAIAAYAAAAAXaXBtYQAAAAAAAAABAAEEAQKDBAAAACVtZGF0EgAKCBgANogQEAwgMg8f8D///8WfhwB8+ErK42A=
+Error downloading data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAADybWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAeaWxvYwAAAABEAAABAAEAAAABAAABGgAAAB0AAAAoaWluZgAAAAAAAQAAABppbmZlAgAAAAABAABhdjAxQ29sb3IAAAAAamlwcnAAAABLaXBjbwAAABRpc3BlAAAAAAAAAAIAAAACAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQ0MAAAAABNjb2xybmNseAACAAIAAYAAAAAXaXBtYQAAAAAAAAABAAEEAQKDBAAAACVtZGF0EgAKCBgANogQEAwgMg8f8D///8WfhwB8+ErK42A= Failed to save data URL: ENOENT: no such file or directory, mkdir 'C:\Users\Admin\nod-pro\static\image\avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAADybWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAeaWxvYwAAAABEAAABAAEAAAABAAABGgAAAB0AAAAoaWluZgAAAAAAAQAAABppbmZlAgAAAAABAABhdjAxQ29sb3IAAAAAamlwcnAAAABLaXBjbwAAABRpc3BlAAAAAAAAAAIAAAACAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQ0MAAAAABNjb2xybmNseAACAAIAAYAAAAAXaXBtYQAAAAAAAAABAAEEAQKDBAAAACVtZGF0EgAKCBgANogQEAwgMg8f8D'
+Already exists: data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=
+Already exists: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=
+Critical resources download completed
+2025-10-27T16:47:48.526Z - GET /games-frame/games/62?co=25&cu=27&lg=en&wh=55&tzo=1 (https)
+(node:8312) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-10-27T16:47:49.313Z - GET /games-frame/service-api/frontend/cdn-config?whence=55 (https)
+2025-10-27T16:47:50.015Z - GET /proxy-resource?url=https%3A%2F%2Fgamscdn.com%2Fweb-v3%2Fversion.json (https)
+Direct gamscdn.com request detected: {
+  url: '/proxy-resource?url=https%3A%2F%2Fgamscdn.com%2Fweb-v3%2Fversion.json',
+  referer: 'https://localhost:3443/games-frame/games/62?co=25&cu=27&lg=en&wh=55&tzo=1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+}
+Serving locally: https://gamscdn.com/web-v3/version.json
+2025-10-27T16:47:50.035Z - GET /proxy-resource?url=https%3A%2F%2Fgamscdn.com%2Fweb-v3%2Fstatic%2Fmain.409895899f2c.js (https)
+Direct gamscdn.com request detected: {
+  url: '/proxy-resource?url=https%3A%2F%2Fgamscdn.com%2Fweb-v3%2Fstatic%2Fmain.409895899f2c.js',
+  referer: 'https://localhost:3443/games-frame/games/62?co=25&cu=27&lg=en&wh=55&tzo=1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+}
+Serving locally: https://gamscdn.com/web-v3/static/main.409895899f2c.js
+2025-10-27T16:47:50.109Z - GET /static/22878246.22878246.4c46a6284d3f.js (https)
+2025-10-27T16:47:50.114Z - GET /static/13930271.13930271.c9282d663ee3.js (https)
+2025-10-27T16:47:50.133Z - GET /static/626187.626187.41941802ea70.css (https)
+2025-10-27T16:47:50.142Z - GET /static/56174419.56174419.5fbb356f4d40.css (https)
+2025-10-27T16:47:50.145Z - GET /static/77424332.77424332.b1cb9f1d782e.css (https)
+2025-10-27T16:47:50.147Z - GET /static/90301927.90301927.77d96f504ddf.css (https)
+2025-10-27T16:47:50.796Z - GET /static/24992105.24992105.ec60b381161a.css (https)
+2025-10-27T16:47:50.827Z - GET /static/63000008.63000008.5c06568dc4f6.css (https)
+2025-10-27T16:47:50.833Z - GET /static/apps_host-b2c-web-v3.bootstrap.98130127.b863c2629d41.css (https)
+2025-10-27T16:47:50.842Z - GET /games-frame/games/62?co=25&cu=27&lg=en&wh=55&tzo=1 (https)
+2025-10-27T16:47:50.884Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F626187.626187.41941802ea70.css (https)
+2025-10-27T16:47:50.902Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F56174419.56174419.5fbb356f4d40.css (https)
+2025-10-27T16:47:51.540Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F77424332.77424332.b1cb9f1d782e.css (https)
+2025-10-27T16:47:51.541Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F90301927.90301927.77d96f504ddf.css (https)
+2025-10-27T16:47:51.568Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F63000008.63000008.5c06568dc4f6.css (https)
+2025-10-27T16:47:51.573Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fapps_host-b2c-web-v3.bootstrap.98130127.b863c2629d41.css (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:47:51.615Z - GET /static/5693519.5693519.5f2e6e7cab2e.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:47:51.633Z - GET /static/46637997.46637997.89a798fc1b19.js (https)
+2025-10-27T16:47:51.639Z - GET /static/85383299.85383299.5c40460bc033.js (https)
+2025-10-27T16:47:51.643Z - GET /static/14687768.14687768.ceeffc82bbe4.js (https)
+2025-10-27T16:47:51.651Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F626187.626187.41941802ea70.css (https)
+2025-10-27T16:47:51.656Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F56174419.56174419.5fbb356f4d40.css (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:47:52.337Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F77424332.77424332.b1cb9f1d782e.css (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:47:52.354Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F90301927.90301927.77d96f504ddf.css (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:47:52.370Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F24992105.24992105.ec60b381161a.css (https)
+2025-10-27T16:47:52.371Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F63000008.63000008.5c06568dc4f6.css (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:47:56.750Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fapps_host-b2c-web-v3.bootstrap.98130127.b863c2629d41.css (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:47:56.832Z - GET /games-frame/static/626187.626187.41941802ea70.css (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Request failed (attempt 1), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:47:57.489Z - GET /games-frame/static/56174419.56174419.5fbb356f4d40.css (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:47:57.520Z - GET /games-frame/static/77424332.77424332.b1cb9f1d782e.css (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:47:57.535Z - GET /games-frame/static/24992105.24992105.ec60b381161a.css (https)
+2025-10-27T16:47:57.539Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F22878246.22878246.4c46a6284d3f.js (https)
+2025-10-27T16:47:57.543Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F13930271.13930271.c9282d663ee3.js (https)
+2025-10-27T16:47:58.241Z - GET /games-frame/static/90301927.90301927.77d96f504ddf.css (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:47:58.275Z - GET /games-frame/static/63000008.63000008.5c06568dc4f6.css (https)
+2025-10-27T16:47:58.462Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F5693519.5693519.5f2e6e7cab2e.js (https)
+2025-10-27T16:47:58.971Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F46637997.46637997.89a798fc1b19.js (https)
+2025-10-27T16:47:59.027Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F85383299.85383299.5c40460bc033.js (https)
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:01.933Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F14687768.14687768.ceeffc82bbe4.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:02.683Z - GET /games-frame/static/apps_host-b2c-web-v3.bootstrap.98130127.b863c2629d41.css (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:02.791Z - GET /.well-known/appspecific/com.chrome.devtools.json (https)
+2025-10-27T16:48:03.490Z - GET /static/25261146.25261146.51dfcceddf87.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:03.679Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2F.well-known%2Fappspecific%2Fcom.chrome.devtools.json (https)
+2025-10-27T16:48:03.778Z - GET /static/13991975.13991975.074067047673.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:04.142Z - GET /static/64759318.64759318.de419128370c.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:04.175Z - GET /static/60873823.60873823.6a3e85e77422.js (https)
+2025-10-27T16:48:04.214Z - GET /static/99712821.99712821.a6b9a6bb2d77.js (https)
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:48:04.498Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F25261146.25261146.51dfcceddf87.js (https)
+2025-10-27T16:48:04.874Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F13991975.13991975.074067047673.js (https)
+2025-10-27T16:48:04.880Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F60873823.60873823.6a3e85e77422.js (https)
+2025-10-27T16:48:04.926Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F64759318.64759318.de419128370c.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:07.123Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F99712821.99712821.a6b9a6bb2d77.js (https)
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:08.850Z - GET /static/2938193.2938193.15e41274e642.js (https)
+Request failed (attempt 2), retrying... HTTP 404
+2025-10-27T16:48:09.613Z - GET /static/41416153.41416153.6dff636b35fc.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:09.644Z - GET /static/99117323.99117323.ec99f651791e.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:09.997Z - GET /static/40268409.40268409.81df612ca6b6.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:10.103Z - GET /static/49983189.49983189.371093068d3a.js (https)
+2025-10-27T16:48:10.108Z - GET /static/43770292.43770292.431db249db58.js (https)
+2025-10-27T16:48:10.309Z - GET /static/85357574.85357574.fc3a6f575ab3.js (https)
+2025-10-27T16:48:10.360Z - GET /static/58315105.58315105.0632090647d1.js (https)
+2025-10-27T16:48:10.727Z - GET /static/3594813.3594813.0a5ba55c6b53.js (https)
+2025-10-27T16:48:10.838Z - GET /static/86427637.86427637.0291680224a5.js (https)
+2025-10-27T16:48:10.848Z - GET /static/20191420.20191420.44f9704e274e.js (https)
+2025-10-27T16:48:11.062Z - GET /static/93955524.93955524.946c596c4d3b.js (https)
+2025-10-27T16:48:11.074Z - GET /static/6558634.6558634.c34cff3ca9ad.js (https)
+2025-10-27T16:48:11.435Z - GET /static/53989946.53989946.dd0567cc0b6b.js (https)
+2025-10-27T16:48:11.593Z - GET /static/22857420.22857420.a53ab967909c.js (https)
+2025-10-27T16:48:11.606Z - GET /static/40018987.40018987.c1e6152d9249.js (https)
+2025-10-27T16:48:11.804Z - GET /static/79833750.79833750.6104f738b928.js (https)
+2025-10-27T16:48:11.808Z - GET /static/61757761.61757761.a7c2c488a173.js (https)
+2025-10-27T16:48:12.286Z - GET /static/18003459.18003459.9c4ea51dc4fd.js (https)
+2025-10-27T16:48:12.306Z - GET /static/10613201.10613201.6f399e7aa04b.js (https)
+2025-10-27T16:48:12.314Z - GET /static/80190837.80190837.d1e2f17b1cc6.js (https)
+2025-10-27T16:48:12.735Z - GET /static/76125570.76125570.0861de14452a.js (https)
+2025-10-27T16:48:12.738Z - GET /static/68012030.68012030.3ba0d7d438a5.js (https)
+2025-10-27T16:48:13.257Z - GET /static/19345150.19345150.e2351964a85f.js (https)
+2025-10-27T16:48:13.261Z - GET /static/83808813.83808813.7d065f0333d8.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:13.289Z - GET /static/65164574.65164574.951adaa7756a.js (https)
+2025-10-27T16:48:13.305Z - GET /static/98816949.98816949.a0c856a8b0f9.js (https)
+2025-10-27T16:48:14.049Z - GET /static/16127496.16127496.fb479b6e15cf.js (https)
+2025-10-27T16:48:14.056Z - GET /static/46680541.46680541.c7dfc7147579.js (https)
+2025-10-27T16:48:14.212Z - GET /static/47257778.47257778.a2413e180a20.js (https)
+2025-10-27T16:48:14.245Z - GET /static/35877627.35877627.268a23188f46.js (https)
+2025-10-27T16:48:14.365Z - GET /static/25111092.25111092.424632d774a1.js (https)
+2025-10-27T16:48:14.408Z - GET /static/38306811.38306811.97b267d8aef5.js (https)
+2025-10-27T16:48:14.992Z - GET /static/54352046.54352046.07f7dbd5b8ed.js (https)
+2025-10-27T16:48:14.995Z - GET /static/49793499.49793499.f1a53a606192.js (https)
+2025-10-27T16:48:15.135Z - GET /static/8837242.8837242.9c89dc4eb817.js (https)
+2025-10-27T16:48:15.146Z - GET /static/28846249.28846249.940d3c968991.js (https)
+2025-10-27T16:48:15.332Z - GET /static/26670778.26670778.7f0b89e3b1f6.js (https)
+2025-10-27T16:48:15.338Z - GET /static/99653244.99653244.fb1fbb75d9e0.js (https)
+2025-10-27T16:48:15.733Z - GET /static/56446861.56446861.a8cde0797458.js (https)
+2025-10-27T16:48:15.749Z - GET /static/91686671.91686671.a06be6e3fa90.js (https)
+2025-10-27T16:48:15.845Z - GET /static/626187.626187.b55e3755a1d6.js (https)
+2025-10-27T16:48:15.851Z - GET /static/56558015.56558015.8cbb5147a4fc.js (https)
+2025-10-27T16:48:16.076Z - GET /static/98589310.98589310.d25719992ae0.js (https)
+2025-10-27T16:48:16.080Z - GET /static/56174419.56174419.329cc96fe817.js (https)
+2025-10-27T16:48:16.454Z - GET /static/97775718.97775718.d8bfe38fee61.js (https)
+2025-10-27T16:48:16.465Z - GET /static/95258750.95258750.085e947f94b6.js (https)
+2025-10-27T16:48:16.555Z - GET /static/6464379.6464379.ed0ad8cb6b28.js (https)
+2025-10-27T16:48:16.560Z - GET /static/12616011.12616011.33c7da618d9e.js (https)
+2025-10-27T16:48:16.788Z - GET /static/77424332.77424332.1a5b3045bc9d.js (https)
+2025-10-27T16:48:16.823Z - GET /static/37967677.37967677.fe8e618c23f4.js (https)
+2025-10-27T16:48:17.207Z - GET /static/27877217.27877217.f5f69710e3b6.js (https)
+2025-10-27T16:48:17.214Z - GET /static/66835474.66835474.298c2cd45f76.js (https)
+2025-10-27T16:48:17.245Z - GET /static/48997207.48997207.f2b353697d6a.js (https)
+2025-10-27T16:48:17.263Z - GET /static/90301927.90301927.251a4024140f.js (https)
+2025-10-27T16:48:17.543Z - GET /static/30498263.30498263.cc50094165ce.js (https)
+2025-10-27T16:48:17.550Z - GET /static/26776795.26776795.a938f15e7b22.js (https)
+2025-10-27T16:48:17.905Z - GET /static/12217213.12217213.89107f4cea12.js (https)
+2025-10-27T16:48:17.931Z - GET /static/24973154.24973154.a7a6c61202f4.js (https)
+2025-10-27T16:48:17.958Z - GET /static/24992105.24992105.7b0ff4fcb194.js (https)
+2025-10-27T16:48:17.967Z - GET /static/82418736.82418736.446262d6b61a.js (https)
+2025-10-27T16:48:18.231Z - GET /static/63000008.63000008.df73a9b87a2c.js (https)
+2025-10-27T16:48:18.264Z - GET /static/26085516.26085516.3f37609df982.js (https)
+2025-10-27T16:48:18.610Z - GET /static/53895257.53895257.878500267003.js (https)
+2025-10-27T16:48:18.649Z - GET /static/31307001.31307001.a1dc9fa354f3.js (https)
+2025-10-27T16:48:18.680Z - GET /static/96240075.96240075.39f51ded1a16.js (https)
+2025-10-27T16:48:18.698Z - GET /static/35017703.35017703.599bd783d137.js (https)
+2025-10-27T16:48:18.951Z - GET /static/61169397.61169397.f480aa3c557d.js (https)
+2025-10-27T16:48:18.966Z - GET /static/apps_host-b2c-web-v3.bootstrap.98130127.2c97de7c52b5.js (https)
+2025-10-27T16:48:19.326Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F2938193.2938193.15e41274e642.js (https)
+2025-10-27T16:48:19.388Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F41416153.41416153.6dff636b35fc.js (https)
+2025-10-27T16:48:19.406Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F99117323.99117323.ec99f651791e.js (https)
+2025-10-27T16:48:19.421Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F40268409.40268409.81df612ca6b6.js (https)
+2025-10-27T16:48:19.668Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F49983189.49983189.371093068d3a.js (https)
+2025-10-27T16:48:19.697Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F43770292.43770292.431db249db58.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:24.705Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F85357574.85357574.fc3a6f575ab3.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:24.724Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F58315105.58315105.0632090647d1.js (https)
+2025-10-27T16:48:24.727Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F3594813.3594813.0a5ba55c6b53.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:24.778Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F20191420.20191420.44f9704e274e.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:24.803Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F86427637.86427637.0291680224a5.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:24.833Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F6558634.6558634.c34cff3ca9ad.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:29.846Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F93955524.93955524.946c596c4d3b.js (https)
+2025-10-27T16:48:29.847Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F53989946.53989946.dd0567cc0b6b.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:29.878Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F22857420.22857420.a53ab967909c.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:29.971Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F40018987.40018987.c1e6152d9249.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:30.080Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F79833750.79833750.6104f738b928.js (https)
+2025-10-27T16:48:30.084Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F61757761.61757761.a7c2c488a173.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:35.182Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F18003459.18003459.9c4ea51dc4fd.js (https)
+2025-10-27T16:48:35.192Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F10613201.10613201.6f399e7aa04b.js (https)
+2025-10-27T16:48:35.194Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F80190837.80190837.d1e2f17b1cc6.js (https)
+2025-10-27T16:48:35.204Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F76125570.76125570.0861de14452a.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:35.370Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F68012030.68012030.3ba0d7d438a5.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:35.467Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F83808813.83808813.7d065f0333d8.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:40.316Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F19345150.19345150.e2351964a85f.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:40.324Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F98816949.98816949.a0c856a8b0f9.js (https)
+2025-10-27T16:48:40.330Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F65164574.65164574.951adaa7756a.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:40.402Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F16127496.16127496.fb479b6e15cf.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:40.572Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F46680541.46680541.c7dfc7147579.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:40.679Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F35877627.35877627.268a23188f46.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:45.441Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F47257778.47257778.a2413e180a20.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:45.480Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F38306811.38306811.97b267d8aef5.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:45.512Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F25111092.25111092.424632d774a1.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:45.584Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F54352046.54352046.07f7dbd5b8ed.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:45.720Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F49793499.49793499.f1a53a606192.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:45.857Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F8837242.8837242.9c89dc4eb817.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:50.609Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F28846249.28846249.940d3c968991.js (https)
+2025-10-27T16:48:50.614Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F26670778.26670778.7f0b89e3b1f6.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:50.689Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F99653244.99653244.fb1fbb75d9e0.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:50.749Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F91686671.91686671.a06be6e3fa90.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:50.840Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F56446861.56446861.a8cde0797458.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:50.925Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F56558015.56558015.8cbb5147a4fc.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:55.689Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F626187.626187.b55e3755a1d6.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:55.781Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F56174419.56174419.329cc96fe817.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:55.835Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F98589310.98589310.d25719992ae0.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:55.849Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F97775718.97775718.d8bfe38fee61.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:55.982Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F95258750.95258750.085e947f94b6.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:48:56.072Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F6464379.6464379.ed0ad8cb6b28.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:00.904Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F12616011.12616011.33c7da618d9e.js (https)
+2025-10-27T16:49:00.906Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F77424332.77424332.1a5b3045bc9d.js (https)
+2025-10-27T16:49:00.918Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F37967677.37967677.fe8e618c23f4.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:01.030Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F66835474.66835474.298c2cd45f76.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:01.106Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F27877217.27877217.f5f69710e3b6.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:01.135Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F48997207.48997207.f2b353697d6a.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:06.108Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F90301927.90301927.251a4024140f.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:06.132Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F30498263.30498263.cc50094165ce.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:06.156Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F26776795.26776795.a938f15e7b22.js (https)
+2025-10-27T16:49:06.166Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F12217213.12217213.89107f4cea12.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:06.302Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F24973154.24973154.a7a6c61202f4.js (https)
+2025-10-27T16:49:06.308Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F82418736.82418736.446262d6b61a.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:11.212Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F24992105.24992105.7b0ff4fcb194.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:11.323Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F63000008.63000008.df73a9b87a2c.js (https)
+2025-10-27T16:49:11.328Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F26085516.26085516.3f37609df982.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:11.351Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F53895257.53895257.878500267003.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:11.475Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F31307001.31307001.a1dc9fa354f3.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:11.494Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F96240075.96240075.39f51ded1a16.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:16.397Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F35017703.35017703.599bd783d137.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:16.456Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fapps_host-b2c-web-v3.bootstrap.98130127.2c97de7c52b5.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:16.508Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F61169397.61169397.f480aa3c557d.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:16.577Z - GET /games-frame/static/22878246.22878246.4c46a6284d3f.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:16.671Z - GET /games-frame/static/13930271.13930271.c9282d663ee3.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:21.850Z - GET /games-frame/static/5693519.5693519.5f2e6e7cab2e.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:22.040Z - GET /games-frame/static/46637997.46637997.89a798fc1b19.js (https)
+2025-10-27T16:49:22.047Z - GET /games-frame/static/85383299.85383299.5c40460bc033.js (https)
+2025-10-27T16:49:22.770Z - GET /games-frame/static/14687768.14687768.ceeffc82bbe4.js (https)
+2025-10-27T16:49:22.961Z - GET /games-frame/static/25261146.25261146.51dfcceddf87.js (https)
+2025-10-27T16:49:22.994Z - GET /games-frame/static/60873823.60873823.6a3e85e77422.js (https)
+2025-10-27T16:49:23.674Z - GET /games-frame/static/64759318.64759318.de419128370c.js (https)
+2025-10-27T16:49:23.772Z - GET /games-frame/static/13991975.13991975.074067047673.js (https)
+2025-10-27T16:49:23.907Z - GET /games-frame/static/99712821.99712821.a6b9a6bb2d77.js (https)
+2025-10-27T16:49:24.629Z - GET /games-frame/static/40268409.40268409.81df612ca6b6.js (https)
+2025-10-27T16:49:24.656Z - GET /games-frame/static/2938193.2938193.15e41274e642.js (https)
+2025-10-27T16:49:24.729Z - GET /games-frame/static/41416153.41416153.6dff636b35fc.js (https)
+2025-10-27T16:49:25.348Z - GET /games-frame/static/99117323.99117323.ec99f651791e.js (https)
+2025-10-27T16:49:25.371Z - GET /games-frame/static/49983189.49983189.371093068d3a.js (https)
+2025-10-27T16:49:25.465Z - GET /games-frame/static/43770292.43770292.431db249db58.js (https)
+2025-10-27T16:49:26.209Z - GET /games-frame/static/85357574.85357574.fc3a6f575ab3.js (https)
+2025-10-27T16:49:26.264Z - GET /games-frame/static/58315105.58315105.0632090647d1.js (https)
+2025-10-27T16:49:26.498Z - GET /games-frame/static/20191420.20191420.44f9704e274e.js (https)
+2025-10-27T16:49:27.269Z - GET /games-frame/static/3594813.3594813.0a5ba55c6b53.js (https)
+2025-10-27T16:49:27.397Z - GET /games-frame/static/6558634.6558634.c34cff3ca9ad.js (https)
+2025-10-27T16:49:27.928Z - GET /games-frame/static/86427637.86427637.0291680224a5.js (https)
+2025-10-27T16:49:28.471Z - GET /games-frame/static/22857420.22857420.a53ab967909c.js (https)
+2025-10-27T16:49:28.601Z - GET /games-frame/static/93955524.93955524.946c596c4d3b.js (https)
+2025-10-27T16:49:29.168Z - GET /games-frame/static/53989946.53989946.dd0567cc0b6b.js (https)
+2025-10-27T16:49:29.195Z - GET /games-frame/static/40018987.40018987.c1e6152d9249.js (https)
+2025-10-27T16:49:29.346Z - GET /games-frame/static/61757761.61757761.a7c2c488a173.js (https)
+2025-10-27T16:49:29.929Z - GET /games-frame/static/79833750.79833750.6104f738b928.js (https)
+2025-10-27T16:49:30.071Z - GET /games-frame/static/80190837.80190837.d1e2f17b1cc6.js (https)
+2025-10-27T16:49:30.247Z - GET /games-frame/static/76125570.76125570.0861de14452a.js (https)
+2025-10-27T16:49:30.622Z - GET /games-frame/static/18003459.18003459.9c4ea51dc4fd.js (https)
+2025-10-27T16:49:30.780Z - GET /games-frame/static/10613201.10613201.6f399e7aa04b.js (https)
+2025-10-27T16:49:31.344Z - GET /games-frame/static/68012030.68012030.3ba0d7d438a5.js (https)
+2025-10-27T16:49:31.424Z - GET /games-frame/static/83808813.83808813.7d065f0333d8.js (https)
+2025-10-27T16:49:31.666Z - GET /games-frame/static/65164574.65164574.951adaa7756a.js (https)
+2025-10-27T16:49:32.115Z - GET /games-frame/static/19345150.19345150.e2351964a85f.js (https)
+2025-10-27T16:49:32.370Z - GET /games-frame/static/98816949.98816949.a0c856a8b0f9.js (https)
+2025-10-27T16:49:32.748Z - GET /games-frame/static/16127496.16127496.fb479b6e15cf.js (https)
+2025-10-27T16:49:32.843Z - GET /games-frame/static/46680541.46680541.c7dfc7147579.js (https)
+2025-10-27T16:49:33.278Z - GET /games-frame/static/35877627.35877627.268a23188f46.js (https)
+2025-10-27T16:49:33.579Z - GET /games-frame/static/38306811.38306811.97b267d8aef5.js (https)
+2025-10-27T16:49:33.643Z - GET /games-frame/static/47257778.47257778.a2413e180a20.js (https)
+2025-10-27T16:49:34.180Z - GET /games-frame/static/54352046.54352046.07f7dbd5b8ed.js (https)
+2025-10-27T16:49:34.589Z - GET /games-frame/static/25111092.25111092.424632d774a1.js (https)
+2025-10-27T16:49:35.020Z - GET /games-frame/static/49793499.49793499.f1a53a606192.js (https)
+2025-10-27T16:49:35.302Z - GET /games-frame/static/8837242.8837242.9c89dc4eb817.js (https)
+2025-10-27T16:49:35.395Z - GET /games-frame/static/28846249.28846249.940d3c968991.js (https)
+2025-10-27T16:49:35.928Z - GET /games-frame/static/26670778.26670778.7f0b89e3b1f6.js (https)
+2025-10-27T16:49:36.054Z - GET /games-frame/static/99653244.99653244.fb1fbb75d9e0.js (https)
+2025-10-27T16:49:36.187Z - GET /games-frame/static/91686671.91686671.a06be6e3fa90.js (https)
+2025-10-27T16:49:36.631Z - GET /games-frame/static/56446861.56446861.a8cde0797458.js (https)
+2025-10-27T16:49:36.877Z - GET /games-frame/static/56558015.56558015.8cbb5147a4fc.js (https)
+2025-10-27T16:49:37.225Z - GET /games-frame/static/56174419.56174419.329cc96fe817.js (https)
+2025-10-27T16:49:37.640Z - GET /games-frame/static/98589310.98589310.d25719992ae0.js (https)
+2025-10-27T16:49:37.773Z - GET /games-frame/static/626187.626187.b55e3755a1d6.js (https)
+2025-10-27T16:49:38.246Z - GET /games-frame/static/97775718.97775718.d8bfe38fee61.js (https)
+2025-10-27T16:49:38.343Z - GET /games-frame/static/95258750.95258750.085e947f94b6.js (https)
+2025-10-27T16:49:39.112Z - GET /games-frame/static/6464379.6464379.ed0ad8cb6b28.js (https)
+2025-10-27T16:49:39.283Z - GET /games-frame/static/77424332.77424332.1a5b3045bc9d.js (https)
+2025-10-27T16:49:39.351Z - GET /games-frame/static/12616011.12616011.33c7da618d9e.js (https)
+2025-10-27T16:49:40.231Z - GET /games-frame/static/66835474.66835474.298c2cd45f76.js (https)
+2025-10-27T16:49:40.316Z - GET /games-frame/static/37967677.37967677.fe8e618c23f4.js (https)
+2025-10-27T16:49:40.755Z - GET /games-frame/static/27877217.27877217.f5f69710e3b6.js (https)
+2025-10-27T16:49:41.028Z - GET /games-frame/static/48997207.48997207.f2b353697d6a.js (https)
+2025-10-27T16:49:41.182Z - GET /games-frame/static/90301927.90301927.251a4024140f.js (https)
+2025-10-27T16:49:41.491Z - GET /games-frame/static/30498263.30498263.cc50094165ce.js (https)
+2025-10-27T16:49:42.090Z - GET /games-frame/static/12217213.12217213.89107f4cea12.js (https)
+2025-10-27T16:49:42.159Z - GET /games-frame/static/26776795.26776795.a938f15e7b22.js (https)
+2025-10-27T16:49:43.076Z - GET /games-frame/static/24973154.24973154.a7a6c61202f4.js (https)
+2025-10-27T16:49:43.104Z - GET /games-frame/static/82418736.82418736.446262d6b61a.js (https)
+2025-10-27T16:49:43.137Z - GET /games-frame/static/24992105.24992105.7b0ff4fcb194.js (https)
+2025-10-27T16:49:43.852Z - GET /games-frame/static/63000008.63000008.df73a9b87a2c.js (https)
+2025-10-27T16:49:44.137Z - GET /games-frame/static/26085516.26085516.3f37609df982.js (https)
+2025-10-27T16:49:44.670Z - GET /games-frame/static/53895257.53895257.878500267003.js (https)
+2025-10-27T16:49:44.762Z - GET /games-frame/static/96240075.96240075.39f51ded1a16.js (https)
+2025-10-27T16:49:44.836Z - GET /games-frame/static/31307001.31307001.a1dc9fa354f3.js (https)
+2025-10-27T16:49:45.410Z - GET /games-frame/static/35017703.35017703.599bd783d137.js (https)
+2025-10-27T16:49:45.506Z - GET /games-frame/static/61169397.61169397.f480aa3c557d.js (https)
+2025-10-27T16:49:45.590Z - GET /games-frame/static/apps_host-b2c-web-v3.bootstrap.98130127.2c97de7c52b5.js (https)
+2025-10-27T16:49:48.035Z - GET /games-frame/project?whence=55 (https)
+2025-10-27T16:49:48.841Z - GET /games-frame/translations/version (https)
+2025-10-27T16:49:48.855Z - GET /games-frame/service-api/maintenance-mode (https)
+2025-10-27T16:49:48.864Z - GET /static/sprite.95be757093b7.svg (https)
+2025-10-27T16:49:48.882Z - GET /static/Themes.Planbet-Default-index-ts.6495828.a48f14dbdabd.css (https)
+2025-10-27T16:49:48.885Z - GET /games-frame/service-api/games-preview/GetGamesActions?language=en&whence=55 (https)
+2025-10-27T16:49:48.887Z - GET /static/Themes.Planbet-Default-index-ts.6495828.d45c3a64d7d4.js (https)
+2025-10-27T16:49:49.550Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fsprite.95be757093b7.svg (https)
+2025-10-27T16:49:49.564Z - GET /games-frame/translations/en/bonuses.json (https)
+2025-10-27T16:49:49.570Z - GET /games-frame/translations/en/common.json (https)
+2025-10-27T16:49:49.580Z - GET /games-frame/translations/en/rulesCommon.json (https)
+2025-10-27T16:49:49.608Z - GET /games-frame/translations/en/offers.json (https)
+2025-10-27T16:49:49.613Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fstatic%2Fthemes.planbet-default-index-ts.6495828.a48f14dbdabd.css (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:49:50.282Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fstatic%2Fthemes.planbet-default-index-ts.6495828.d45c3a64d7d4.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:54.773Z - GET /games-frame/static/sprite.95be757093b7.svg (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:55.481Z - GET /games-frame/static/Themes.Planbet-Default-index-ts.6495828.a48f14dbdabd.css (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:49:56.085Z - GET /games-frame/static/Themes.Planbet-Default-index-ts.6495828.d45c3a64d7d4.js (https)
+2025-10-27T16:49:56.934Z - GET /static/ui-components-assets0.23203172.ee23ed4fbdcf.js (https)
+2025-10-27T16:49:56.943Z - GET /games-frame/service-api/games-feed/authorization/MinMax/ByCurrency?language=en&whence=55&CI=27&GI=62&ref=387 (https)
+2025-10-27T16:49:56.947Z - GET /games-frame/mfs/game-thimbles/remoteEntry.js?v=e35492d5fae0cb62 (https)
+2025-10-27T16:49:56.961Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fsprite.95be757093b7.svg (https)
+2025-10-27T16:49:57.673Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fui-components-assets0.23203172.ee23ed4fbdcf.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:49:57.684Z - GET /games-frame/api/games/thimbles (https)
+2025-10-27T16:49:57.945Z - GET /mfs/game-thimbles/38757413.38757413.7628bc69939e.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:49:58.738Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2F38757413.38757413.7628bc69939e.js (https)
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:50:02.166Z - GET /mfs/game-thimbles/31371831.31371831.a8743eba4c79.css (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:50:02.845Z - GET /mfs/game-thimbles/25133570.25133570.e4a7c6ba7519.js (https)
+2025-10-27T16:50:02.869Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2F31371831.31371831.a8743eba4c79.css (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:50:03.544Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2F25133570.25133570.e4a7c6ba7519.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:50:03.876Z - GET /mfs/game-thimbles/63390544.63390544.f58f4d6a8a15.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:50:04.702Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2F63390544.63390544.f58f4d6a8a15.js (https)
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:50:08.023Z - GET /mfs/game-thimbles/64073094.64073094.dbb29290d780.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:50:08.729Z - GET /games-frame/mfs/game-thimbles/31371831.31371831.a8743eba4c79.css (https)
+2025-10-27T16:50:08.752Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2F64073094.64073094.dbb29290d780.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:50:09.743Z - GET /mfs/game-thimbles/76396570.76396570.8d0f8db10fa5.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:50:09.962Z - GET /mfs/game-thimbles/12767160.12767160.52a09b410d97.js (https)
+2025-10-27T16:50:10.484Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2F76396570.76396570.8d0f8db10fa5.js (https)
+2025-10-27T16:50:10.710Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2F12767160.12767160.52a09b410d97.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:50:13.939Z - GET /mfs/game-thimbles/67425324.67425324.1dfc2de07307.js (https)
+2025-10-27T16:50:14.626Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2F67425324.67425324.1dfc2de07307.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:50:15.818Z - GET /mfs/game-thimbles/63925496.63925496.b05e9dbac0a1.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:50:15.959Z - GET /mfs/game-thimbles/42561440.42561440.44180dd6c08e.js (https)
+2025-10-27T16:50:16.577Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2F63925496.63925496.b05e9dbac0a1.js (https)
+2025-10-27T16:50:16.690Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2F42561440.42561440.44180dd6c08e.js (https)
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:50:19.956Z - GET /mfs/game-thimbles/31371831.31371831.ef1be25d04e2.js (https)
+2025-10-27T16:50:20.716Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2F31371831.31371831.ef1be25d04e2.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:50:22.033Z - GET /games-frame/static/ui-components-assets0.23203172.ee23ed4fbdcf.js (https)
+2025-10-27T16:50:22.043Z - GET /games-frame/mfs/game-thimbles/38757413.38757413.7628bc69939e.js (https)
+2025-10-27T16:50:22.776Z - GET /games-frame/mfs/game-thimbles/25133570.25133570.e4a7c6ba7519.js (https)
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:50:26.183Z - GET /games-frame/mfs/game-thimbles/63390544.63390544.f58f4d6a8a15.js (https)
+2025-10-27T16:50:26.339Z - GET /games-frame/mfs/game-thimbles/64073094.64073094.dbb29290d780.js (https)
+2025-10-27T16:50:29.720Z - GET /games-frame/mfs/game-thimbles/76396570.76396570.8d0f8db10fa5.js (https)
+2025-10-27T16:50:34.085Z - GET /games-frame/mfs/game-thimbles/12767160.12767160.52a09b410d97.js (https)
+2025-10-27T16:50:34.304Z - GET /games-frame/mfs/game-thimbles/67425324.67425324.1dfc2de07307.js (https)
+2025-10-27T16:50:35.050Z - GET /games-frame/mfs/game-thimbles/42561440.42561440.44180dd6c08e.js (https)
+2025-10-27T16:50:35.427Z - GET /games-frame/mfs/game-thimbles/63925496.63925496.b05e9dbac0a1.js (https)
+2025-10-27T16:50:36.159Z - GET /static/icons-sprite.63f518a2e03b.svg (https)
+2025-10-27T16:50:36.913Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Ficons-sprite.63f518a2e03b.svg (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+2025-10-27T16:50:39.765Z - GET /games-frame/mfs/game-thimbles/31371831.31371831.ef1be25d04e2.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:50:42.046Z - GET /games-frame/static/icons-sprite.63f518a2e03b.svg (https)
+2025-10-27T16:50:46.810Z - GET /mfs/game-thimbles/arrow-sprite.fcc08a58ab65.png (https)
+2025-10-27T16:50:46.813Z - GET /mfs/game-thimbles/icons-sprite-thimbles.c69289f3499c.svg (https)
+2025-10-27T16:50:46.833Z - GET /mfs/game-thimbles/rules-wrap.5e35b2e3bc5d.png (https)
+2025-10-27T16:50:47.622Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Farrow-sprite.fcc08a58ab65.png (https)
+2025-10-27T16:50:47.627Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Frules-wrap.5e35b2e3bc5d.png (https)
+2025-10-27T16:50:47.627Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Ficons-sprite-thimbles.c69289f3499c.svg (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:50:52.956Z - GET /mfs/game-thimbles/switch.11e203988673.png (https)
+2025-10-27T16:50:52.964Z - GET /games-frame/mfs/game-thimbles/arrow-sprite.fcc08a58ab65.png (https)
+2025-10-27T16:50:52.966Z - GET /games-frame/mfs/game-thimbles/icons-sprite-thimbles.c69289f3499c.svg (https)
+2025-10-27T16:50:53.784Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Fswitch.11e203988673.png (https)
+2025-10-27T16:50:53.795Z - GET /games-frame/mfs/game-thimbles/rules-wrap.5e35b2e3bc5d.png (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:50:58.995Z - GET /games-frame/mfs/game-thimbles/switch.11e203988673.png (https)
+2025-10-27T16:50:59.732Z - GET /static/jackpot.Desktop.66501589.46e018937a5d.css (https)
+2025-10-27T16:50:59.741Z - GET /static/jackpot.Desktop.66501589.80c50f6baafc.js (https)
+2025-10-27T16:50:59.745Z - GET /static/20770255.20770255.fd425c579635.js (https)
+2025-10-27T16:50:59.779Z - GET /games-frame/translations/en/thimbles.json (https)
+2025-10-27T16:51:00.480Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fstatic%2Fjackpot.desktop.66501589.46e018937a5d.css (https)
+2025-10-27T16:51:00.495Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fstatic%2Fjackpot.desktop.66501589.80c50f6baafc.js (https)
+2025-10-27T16:51:00.505Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2F20770255.20770255.fd425c579635.js (https)
+2025-10-27T16:51:00.871Z - GET /games-frame/service-api/games-thimbles/GetCoeffs?language=en&whence=55 (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:05.746Z - GET /static/bonuses.desktop.99082190.7a50ff6ec65f.css (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:06.286Z - GET /static/breadcrumbs.67847015.636cf85007b8.css (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:06.361Z - GET /static/Montserrat-normal-600.cd7f1c8ad6d9.woff2 (https)
+2025-10-27T16:51:06.454Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fbonuses.desktop.99082190.7a50ff6ec65f.css (https)
+2025-10-27T16:51:07.070Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fstatic%2Fmontserrat-normal-600.cd7f1c8ad6d9.woff2 (https)
+2025-10-27T16:51:07.079Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fbreadcrumbs.67847015.636cf85007b8.css (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Cached resource for future requests: https://planbetbj.com/fr/static/montserrat-normal-600.cd7f1c8ad6d9.woff2
+2025-10-27T16:51:09.120Z - GET /static/Roboto-normal-400.dde3c1b8eb08.woff2 (https)
+Request failed (attempt 2), retrying... HTTP 404
+2025-10-27T16:51:09.881Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fstatic%2Froboto-normal-400.dde3c1b8eb08.woff2 (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:11.682Z - GET /static/Montserrat-normal-400.04369fb900cf.woff2 (https)
+Request failed (attempt 1), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:12.276Z - GET /static/Montserrat-normal-700.a3a7227c9456.woff2 (https)
+2025-10-27T16:51:12.402Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fstatic%2Fmontserrat-normal-400.04369fb900cf.woff2 (https)
+2025-10-27T16:51:12.990Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fstatic%2Fmontserrat-normal-700.a3a7227c9456.woff2 (https)
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:16.979Z - GET /games-frame/static/jackpot.Desktop.66501589.46e018937a5d.css (https)
+2025-10-27T16:51:17.897Z - GET /games-frame/static/Montserrat-normal-600.cd7f1c8ad6d9.woff2 (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:19.047Z - GET /games-frame/static/bonuses.desktop.99082190.7a50ff6ec65f.css (https)
+2025-10-27T16:51:19.170Z - GET /games-frame/static/breadcrumbs.67847015.636cf85007b8.css (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:19.815Z - GET /games-frame/static/Roboto-normal-400.dde3c1b8eb08.woff2 (https)
+2025-10-27T16:51:19.900Z - GET /games-frame/static/Montserrat-normal-400.04369fb900cf.woff2 (https)
+2025-10-27T16:51:20.032Z - GET /games-frame/static/Montserrat-normal-700.a3a7227c9456.woff2 (https)
+2025-10-27T16:51:21.364Z - GET /games-frame/mfs/game-thimbles/btn-bet-sprite.fd2413067048.png (https)
+2025-10-27T16:51:21.373Z - GET /static/bonuses.desktop.99082190.88ace9cc7370.js (https)
+2025-10-27T16:51:21.855Z - GET /static/breadcrumbs.67847015.e52b743007fb.js (https)
+2025-10-27T16:51:22.080Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fbonuses.desktop.99082190.88ace9cc7370.js (https)
+2025-10-27T16:51:22.241Z - GET /games-frame/mfs/game-thimbles/btn-ui-sprite.2fbbc250c58e.png (https)
+2025-10-27T16:51:22.555Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fbreadcrumbs.67847015.e52b743007fb.js (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:51:22.943Z - GET /games-frame/mfs/game-thimbles/btn-ui-wrap.27241acbd4f5.png (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:51:23.691Z - GET /games-frame/mfs/game-thimbles/btn-second-sprite.387222dc573f.png (https)
+2025-10-27T16:51:24.391Z - GET /games-frame/mfs/game-thimbles/btn-play-sprite.3153eaaeb5f4.png (https)
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+2025-10-27T16:51:25.114Z - GET /games-frame/mfs/game-thimbles/btn-play-wrap.3513b15c8aab.png (https)
+2025-10-27T16:51:25.691Z - GET /mfs/game-thimbles/ThimblesCommonManifest.60389435.2443f90300bc.js (https)
+2025-10-27T16:51:25.696Z - GET /mfs/game-thimbles/ThimblesDesktopManifest.26376474.d245bf2d296c.js (https)
+2025-10-27T16:51:25.706Z - GET /games-frame/mfs/game-thimbles/btn-choice-sprite.76b500c1956c.png (https)
+2025-10-27T16:51:25.833Z - GET /games-frame/static/20770255.20770255.fd425c579635.js (https)
+2025-10-27T16:51:26.425Z - GET /games-frame/static/jackpot.Desktop.66501589.80c50f6baafc.js (https)
+2025-10-27T16:51:26.429Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fmfs%2Fgame-thimbles%2Fthimblescommonmanifest.60389435.2443f90300bc.js (https)
+2025-10-27T16:51:26.440Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fmfs%2Fgame-thimbles%2Fthimblesdesktopmanifest.26376474.d245bf2d296c.js (https)
+2025-10-27T16:51:27.137Z - GET /games-frame/translations/en/jackpot.json (https)
+2025-10-27T16:51:27.144Z - GET /static/jackpot-body-glare.d38fa855d38c.png (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:27.263Z - GET /static/jackpot-body-scoreboard.58338ef435b5.png (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:27.702Z - GET /static/jackpot-body-sprite-numbers.61f5db0127f1.png (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:51:27.866Z - GET /static/jackpot-coin.af42cd4ee3d0.png (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:51:27.890Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fjackpot-body-glare.d38fa855d38c.png (https)
+2025-10-27T16:51:28.008Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fjackpot-body-scoreboard.58338ef435b5.png (https)
+2025-10-27T16:51:28.451Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fjackpot-body-sprite-numbers.61f5db0127f1.png (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:51:28.588Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fjackpot-coin.af42cd4ee3d0.png (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:32.343Z - GET /static/jackpot-footer-currency-bg.32f03c69ab51.png (https)
+2025-10-27T16:51:32.348Z - GET /static/jackpot-header-bg.1b89dcf9335b.png (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:33.044Z - GET /static/jackpot-header-sprite-flashlights.4083a7540f11.png (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:33.174Z - GET /static/jackpot-header-sprite-glares.e7aec5574b84.png (https)
+2025-10-27T16:51:33.177Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fjackpot-header-bg.1b89dcf9335b.png (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:33.623Z - GET /static/jackpot-rules-bg.d72817b7f5d9.png (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:33.663Z - GET /static/jackpot-rules-glare-right.b354668a63a7.png (https)
+2025-10-27T16:51:33.753Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fjackpot-header-sprite-flashlights.4083a7540f11.png (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:51:33.900Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fjackpot-header-sprite-glares.e7aec5574b84.png (https)
+2025-10-27T16:51:34.067Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fjackpot-footer-currency-bg.32f03c69ab51.png (https)
+2025-10-27T16:51:34.316Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fjackpot-rules-bg.d72817b7f5d9.png (https)
+2025-10-27T16:51:34.366Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fjackpot-rules-glare-right.b354668a63a7.png (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:38.334Z - GET /static/jackpot-rules-glare-top.1ea1d6ca3c25.png (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:38.856Z - GET /games-frame/static/bonuses.desktop.99082190.88ace9cc7370.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:39.057Z - GET /games-frame/static/breadcrumbs.67847015.e52b743007fb.js (https)
+2025-10-27T16:51:39.068Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fjackpot-rules-glare-top.1ea1d6ca3c25.png (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:39.189Z - GET /games-frame/mfs/game-thimbles/ThimblesCommonManifest.60389435.2443f90300bc.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:39.509Z - GET /games-frame/mfs/game-thimbles/ThimblesDesktopManifest.26376474.d245bf2d296c.js (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:39.551Z - GET /games-frame/static/jackpot-body-glare.d38fa855d38c.png (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:51:39.843Z - GET /games-frame/static/jackpot-body-scoreboard.58338ef435b5.png (https)
+2025-10-27T16:51:40.216Z - GET /games-frame/static/jackpot-body-sprite-numbers.61f5db0127f1.png (https)
+2025-10-27T16:51:40.238Z - GET /games-frame/static/jackpot-coin.af42cd4ee3d0.png (https)
+2025-10-27T16:51:40.362Z - GET /games-frame/static/jackpot-header-bg.1b89dcf9335b.png (https)
+2025-10-27T16:51:40.447Z - GET /games-frame/static/jackpot-header-sprite-flashlights.4083a7540f11.png (https)
+2025-10-27T16:51:40.563Z - GET /mfs/game-thimbles/common.manifest.6fc7d90bc807.json (https)
+2025-10-27T16:51:40.935Z - GET /mfs/game-thimbles/desktop.manifest.65c4b08b0376.json (https)
+2025-10-27T16:51:40.953Z - GET /games-frame/static/jackpot-header-sprite-glares.e7aec5574b84.png (https)
+2025-10-27T16:51:41.083Z - GET /games-frame/static/jackpot-footer-currency-bg.32f03c69ab51.png (https)
+2025-10-27T16:51:41.157Z - GET /games-frame/static/jackpot-rules-bg.d72817b7f5d9.png (https)
+2025-10-27T16:51:41.322Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Fcommon.manifest.6fc7d90bc807.json (https)
+Request failed (attempt 2), retrying... HTTP 404
+2025-10-27T16:51:41.667Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Fdesktop.manifest.65c4b08b0376.json (https)
+2025-10-27T16:51:41.671Z - GET /games-frame/static/jackpot-rules-glare-right.b354668a63a7.png (https)
+2025-10-27T16:51:41.817Z - GET /static/bonuses-icons.e8e7fca8a317.svg (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:51:42.430Z - GET /static/emptyBonusesStars.fa2c119b5b5f.png (https)
+2025-10-27T16:51:42.537Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fstatic%2Fbonuses-icons.e8e7fca8a317.svg (https)
+2025-10-27T16:51:42.671Z - GET /static/icoFreeSpin.1e4c886481fa.png (https)
+2025-10-27T16:51:43.141Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fstatic%2Femptybonusesstars.fa2c119b5b5f.png (https)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:51:43.392Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fstatic%2Ficofreespin.1e4c886481fa.png (https)
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:44.288Z - GET /static/luckyWheelActivityImg.aec6bcecdce8.png (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+2025-10-27T16:51:45.017Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fstatic%2Fluckywheelactivityimg.aec6bcecdce8.png (https)
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:46.509Z - GET /static/sidebarModalGiftGreen.71b7090a20dd.png (https)
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:46.770Z - GET /games-frame/mfs/game-thimbles/common.manifest.6fc7d90bc807.json (https)
+2025-10-27T16:51:47.258Z - GET /games-frame/mfs/game-thimbles/desktop.manifest.65c4b08b0376.json (https)
+2025-10-27T16:51:47.517Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fstatic%2Fsidebarmodalgiftgreen.71b7090a20dd.png (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:47.666Z - GET /static/sidebarModalGiftRed.cd62b26189cc.png (https)
+2025-10-27T16:51:47.987Z - GET /mfs/game-thimbles/desktop.scene.e3cce6dd654a.json (https)
+Request failed (attempt 2), retrying... HTTP 404
+2025-10-27T16:51:48.423Z - GET /mfs/game-thimbles/mobile.scene.c5a1ea6c9350.json (https)
+2025-10-27T16:51:48.706Z - GET /mfs/game-thimbles/[name]-0.a266ef635e4e.json (https)
+Request failed (attempt 1), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:49.042Z - GET /mfs/game-thimbles/animation_vfx01-0.4463ae61c144.json (https)
+2025-10-27T16:51:49.132Z - GET /mfs/game-thimbles/background.fbddba313eee.skel (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:49.196Z - GET /mfs/game-thimbles/info.91a1d4b91d47.skel (https)
+2025-10-27T16:51:49.439Z - GET /mfs/game-thimbles/light.39aac51cb980.skel (https)
+2025-10-27T16:51:49.757Z - GET /mfs/game-thimbles/popup.d7ca3cb5013a.skel (https)
+2025-10-27T16:51:49.834Z - GET /mfs/game-thimbles/thimbles.09788070dbcf.skel (https)
+2025-10-27T16:51:49.929Z - GET /mfs/game-thimbles/background_viewport.0c40c2a8de66.jpg (https)
+2025-10-27T16:51:50.197Z - GET /mfs/game-thimbles/blur.021940547f59.png (https)
+2025-10-27T16:51:50.479Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Fdesktop.scene.e3cce6dd654a.json (https)
+2025-10-27T16:51:50.521Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Fmobile.scene.c5a1ea6c9350.json (https)
+Request failed (attempt 2), retrying... HTTP 404
+2025-10-27T16:51:50.616Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2F%5Bname%5D-0.a266ef635e4e.json (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:50.823Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Fanimation_vfx01-0.4463ae61c144.json (https)
+2025-10-27T16:51:50.896Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Fbackground.fbddba313eee.skel (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:53.326Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Finfo.91a1d4b91d47.skel (https)
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:55.602Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Flight.39aac51cb980.skel (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:55.650Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Fpopup.d7ca3cb5013a.skel (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:55.680Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Fthimbles.09788070dbcf.skel (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:56.057Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Fbackground_viewport.0c40c2a8de66.jpg (https)
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:56.835Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Fblur.021940547f59.png (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:51:59.373Z - GET /games-frame/mfs/game-thimbles/desktop.scene.e3cce6dd654a.json (https)
+2025-10-27T16:52:00.077Z - GET /games-frame/mfs/game-thimbles/mobile.scene.c5a1ea6c9350.json (https)
+2025-10-27T16:52:00.788Z - GET /games-frame/mfs/game-thimbles/[name]-0.a266ef635e4e.json (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:52:01.204Z - GET /games-frame/mfs/game-thimbles/animation_vfx01-0.4463ae61c144.json (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:52:01.501Z - GET /mfs/game-thimbles/background@1x.bc665481762d.atlas (https)
+2025-10-27T16:52:01.507Z - GET /mfs/game-thimbles/info@1x.77a25c67c281.atlas (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:52:01.579Z - GET /games-frame/mfs/game-thimbles/background_viewport.0c40c2a8de66.jpg (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:52:01.682Z - GET /mfs/game-thimbles/popup@1x.a3fbeaea7d75.atlas (https)
+2025-10-27T16:52:01.924Z - GET /mfs/game-thimbles/[name]-0.28fc5f880dba.png (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:52:01.970Z - GET /mfs/game-thimbles/light@1x.00782da15807.atlas (https)
+2025-10-27T16:52:02.232Z - GET /mfs/game-thimbles/thimbles@1x.997e4c4e44c3.atlas (https)
+2025-10-27T16:52:02.272Z - GET /mfs/game-thimbles/animation_vfx01-0.e167dbb26880.png (https)
+2025-10-27T16:52:02.411Z - GET /games-frame/mfs/game-thimbles/blur.021940547f59.png (https)
+2025-10-27T16:52:02.639Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Fbackground%401x.bc665481762d.atlas (https)
+2025-10-27T16:52:02.708Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Finfo%401x.77a25c67c281.atlas (https)
+2025-10-27T16:52:02.788Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Fpopup%401x.a3fbeaea7d75.atlas (https)
+2025-10-27T16:52:02.962Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2F%5Bname%5D-0.28fc5f880dba.png (https)
+2025-10-27T16:52:02.993Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Flight%401x.00782da15807.atlas (https)
+2025-10-27T16:52:03.177Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Fthimbles%401x.997e4c4e44c3.atlas (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:52:08.163Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Ffr%2Fmfs%2Fgame-thimbles%2Fanimation_vfx01-0.e167dbb26880.png (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:52:08.647Z - GET /games-frame/mfs/game-thimbles/[name]-0.28fc5f880dba.png (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:52:08.664Z - GET /games-frame/static/jackpot-rules-glare-top.1ea1d6ca3c25.png (https)
+2025-10-27T16:52:08.669Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fstatic%2Fsidebarmodalgiftred.cd62b26189cc.png (https)
+Request failed (attempt 1), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:52:09.312Z - GET /games-frame/static/bonuses-icons.e8e7fca8a317.svg (https)
+2025-10-27T16:52:09.386Z - GET /games-frame/static/emptyBonusesStars.fa2c119b5b5f.png (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Request failed (attempt 1), retrying... HTTP 404
+2025-10-27T16:52:10.120Z - GET /games-frame/static/icoFreeSpin.1e4c886481fa.png (https)
+2025-10-27T16:52:10.190Z - GET /games-frame/static/luckyWheelActivityImg.aec6bcecdce8.png (https)
+Request failed (attempt 2), retrying... HTTP 404
+2025-10-27T16:52:10.830Z - GET /games-frame/static/sidebarModalGiftGreen.71b7090a20dd.png (https)
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:52:13.363Z - GET /games-frame/mfs/game-thimbles/animation_vfx01-0.e167dbb26880.png (https)
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:52:14.575Z - GET /games-frame/static/sidebarModalGiftRed.cd62b26189cc.png (https)
+2025-10-27T16:54:47.283Z - GET /static/Roboto-normal-700.095ae76c9e18.woff2 (https)
+2025-10-27T16:54:48.051Z - GET /proxy-resource?url=https%3A%2F%2Fplanbetbj.com%2Fstatic%2Froboto-normal-700.095ae76c9e18.woff2 (https)
+Request failed (attempt 1), retrying... HTTP 404
+Request failed (attempt 2), retrying... HTTP 404
+Error proxying resource after retries: Error: HTTP 404
+    at attemptRequest (C:\Users\Admin\nod-pro\server.js:1047:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-27T16:54:54.884Z - GET /games-frame/static/Roboto-normal-700.095ae76c9e18.woff2 (https)
+2025-10-27T16:55:09.793Z - GET /games-frame/service-api/games-feed/Jackpot/GetJackpotInfoByCur?language=en&whence=55&currencyId=27 (https)
+2025-10-27T16:58:09.801Z - GET /games-frame/service-api/games-feed/Jackpot/GetJackpotInfoByCur?language=en&whence=55&currencyId=27 (https)
