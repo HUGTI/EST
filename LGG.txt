@@ -1,0 +1,46 @@
+Microsoft Windows [version 10.0.22000.1574]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\Admin>cd nod-pro
+
+C:\Users\Admin\nod-pro>node server.js
+[HPM] Proxy created: /  -> https://gamscdn.com
+[HPM] Proxy rewrite rule created: "^/gamscdn-proxy" ~> ""
+[HPM] Proxy created: /  -> https://planbetbj.com
+🎯 Simple proxy server running on http://localhost:3000
+🎮 Game URL: http://localhost:3000/games-frame/games/62?co=25&cu=27&lg=en&wh=55&tzo=1
+📝 We'll add response modification step by step
+[2025-11-02T05:59:38.344Z] GET /games-frame/games/62?co=25&cu=27&lg=en&wh=55&tzo=1
+(node:30556) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-11-02T05:59:39.696Z] GET /.well-known/appspecific/com.chrome.devtools.json
+[2025-11-02T05:59:39.712Z] GET /games-frame/service-api/frontend/cdn-config?whence=55
+[2025-11-02T05:59:39.718Z] GET /favicon.ico
+[2025-11-02T05:59:41.922Z] GET /genfiles/cms/387-1329/desktop/media_asset/6bb54004f9eff8d34922bea15fe85b0d.png
+[2025-11-02T05:59:42.391Z] GET /fr/.well-known/appspecific/com.chrome.devtools.json
+[2025-11-02T06:00:08.922Z] GET /games-frame/project?whence=55
+[2025-11-02T06:00:09.115Z] GET /games-frame/translations/version
+[2025-11-02T06:00:09.126Z] GET /games-frame/service-api/maintenance-mode
+[2025-11-02T06:00:09.136Z] GET /games-frame/service-api/games-preview/GetGamesActions?language=en&whence=55
+[2025-11-02T06:00:09.323Z] GET /games-frame/translations/en/bonuses.json
+[2025-11-02T06:00:09.325Z] GET /games-frame/translations/en/common.json
+[2025-11-02T06:00:09.327Z] GET /games-frame/translations/en/rulesCommon.json
+[2025-11-02T06:00:09.328Z] GET /games-frame/translations/en/offers.json
+[2025-11-02T06:00:09.959Z] GET /games-frame/service-api/games-feed/authorization/MinMax/ByCurrency?language=en&whence=55&CI=27&GI=62&ref=387
+[2025-11-02T06:00:09.964Z] GET /games-frame/mfs/game-thimbles/remoteEntry.js?v=e35492d5fae0cb62
+[2025-11-02T06:00:10.147Z] GET /games-frame/api/games/thimbles
+[2025-11-02T06:01:45.089Z] GET /games-frame/translations/en/thimbles.json
+[2025-11-02T06:01:45.454Z] GET /games-frame/translations/en/jackpot.json
+[2025-11-02T06:01:47.813Z] GET /games-frame/service-api/games-thimbles/GetCoeffs?language=en&whence=55
+[2025-11-02T06:02:18.282Z] POST /games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+[2025-11-02T06:04:50.140Z] POST /games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+[2025-11-02T06:04:56.074Z] GET /games-frame/service-api/games-feed/Jackpot/GetJackpotInfoByCur?language=en&whence=55&currencyId=27
+[2025-11-02T06:07:56.938Z] GET /games-frame/service-api/games-feed/Jackpot/GetJackpotInfoByCur?language=en&whence=55&currencyId=27
+[2025-11-02T06:10:56.950Z] GET /games-frame/service-api/games-feed/Jackpot/GetJackpotInfoByCur?language=en&whence=55&currencyId=27
+[2025-11-02T06:13:56.934Z] GET /games-frame/service-api/games-feed/Jackpot/GetJackpotInfoByCur?language=en&whence=55&currencyId=27
+[2025-11-02T06:16:56.939Z] GET /games-frame/service-api/games-feed/Jackpot/GetJackpotInfoByCur?language=en&whence=55&currencyId=27
+[2025-11-02T06:18:49.136Z] POST /games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+[2025-11-02T06:19:49.534Z] POST /games-frame/service-api/analytics/61fe5e1685413ed2f782a7ca7de049bb62b704c3/event.json
+[2025-11-02T06:19:56.063Z] GET /games-frame/service-api/games-feed/Jackpot/GetJackpotInfoByCur?language=en&whence=55&currencyId=27
+[2025-11-02T06:23:10.940Z] GET /games-frame/service-api/games-feed/Jackpot/GetJackpotInfoByCur?language=en&whence=55&currencyId=27
+[2025-11-02T06:25:56.067Z] GET /games-frame/service-api/games-feed/Jackpot/GetJackpotInfoByCur?language=en&whence=55&currencyId=27
